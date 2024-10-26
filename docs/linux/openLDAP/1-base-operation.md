@@ -50,7 +50,7 @@ ldapsearch -x -D "cn=admin,cn=config" -H ldapi:/// -W -b "cn=schema,cn=config" "
 ```
 
 > olc:  openLdap configuration
-> ldif:  LDAP input format (LDIF)
+> ldif:  LDAP data interchange format (LDIF)
 
 #### ldapmodify
 ```shell
@@ -285,9 +285,18 @@ ldapdelete -x -D "cn=admin,dc=example,dc=com" -W "ou=backend,ou=IT,ou=person,dc=
 
 #### slaptest
 ```shell
-
+## verify 文件的完整性
+slaptest -F /etc/openldap/slapd.d/
 ```
 
+
+#### slapcat
+
+```shell 
+### backup 
+slapcat -l export.ldif
+
+```
 
 #### ldappasswd
 ```shell
@@ -454,5 +463,6 @@ access to dn.children="ou=users,dc=example,dc=com"
 > [openldap](https://www.cnblogs.com/woshimrf/p/ldap.html)
 > [ldap](https://www.zytrax.com/books/ldap/)
    [ldap manual](https://www.openldap.org/doc/admin24/)
+   [openLDAP](https://www.cnblogs.com/kevingrace/p/5773974.html)
 
 
