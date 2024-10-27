@@ -24,35 +24,7 @@
             }
           },
           {
-            "id": "d152226b29fb28d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/openLDAP/1-base-operation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1-base-operation"
-            }
-          },
-          {
-            "id": "11828adcaf859762",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/openLDAP/3-centos7-support-LDAP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-centos7-support-LDAP"
-            }
-          },
-          {
-            "id": "a7de7eca087e64ba",
+            "id": "80de96a9af4aa45c",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -69,6 +41,26 @@
               },
               "icon": "lucide-trello",
               "title": "2024-10-04周(21-27)"
+            }
+          },
+          {
+            "id": "2d1d0b9ff54806d2",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "kanban/2024/11/2024-11-01周(28-03).md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "2024-11-01周(28-03)"
             }
           }
         ],
@@ -250,9 +242,11 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "11828adcaf859762",
+  "active": "5776e522bce60b68",
   "lastOpenFiles": [
     "kanban/2024/10/2024-10-04周(21-27).md",
+    "kanban/2024/11/2024-11-01周(28-03).md",
+    "HomePage.md",
     "linux/openLDAP/3-centos7-support-LDAP.md",
     "linux/openLDAP/1-base-operation.md",
     "linux/openLDAP/2-exception.md",
@@ -263,7 +257,6 @@
     "IDE/Obsidian/2-metadata的使用.md",
     "IDE/Obsidian/3-Obsidian-debug.md",
     "kanban/2024/10/2024-10-03周(14-20).md",
-    "HomePage.md",
     "Java/zero-gc/1-java-zero-gc的注意点.md",
     "kanban/2024/10/2024-10-01周(01-06).md",
     "kanban/2024/10/2024-10-02周(07-13).md",
@@ -287,7 +280,6 @@
     "https/SSL/images/tls_client_cert.png",
     "https/SSL/client-日志.md",
     "https/SSL/server-日志.md",
-    "https/SSL/日志1.md",
     "IDE/emacs",
     "IDE/vim",
     "IDE/Obsidian/images/outline2.png",
