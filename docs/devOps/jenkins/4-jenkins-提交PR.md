@@ -1,0 +1,9 @@
+---
+tags:
+  - jenkins
+  - repository
+  - stash
+---
+
+
+

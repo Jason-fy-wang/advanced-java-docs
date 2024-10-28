@@ -24,27 +24,21 @@
             }
           },
           {
-            "id": "80de96a9af4aa45c",
+            "id": "01059678b3ca3351",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "kanban/2024/10/2024-10-04周(21-27).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "devOps/jenkins/7-jenkins一些复杂逻辑整合时的操作.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "2024-10-04周(21-27)"
+              "icon": "lucide-file",
+              "title": "7-jenkins一些复杂逻辑整合时的操作"
             }
           },
           {
-            "id": "2d1d0b9ff54806d2",
+            "id": "55b6d7627b9001d7",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -242,10 +236,14 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "5776e522bce60b68",
+  "active": "55b6d7627b9001d7",
   "lastOpenFiles": [
     "kanban/2024/10/2024-10-04周(21-27).md",
     "kanban/2024/11/2024-11-01周(28-03).md",
+    "devOps/jenkins/7-jenkins一些复杂逻辑整合时的操作.md",
+    "devOps/jenkins/6-自动化pump-platform-搭建.md",
+    "devOps/jenkins/5-jenkins-获取build-job后的版本号.md",
+    "devOps/jenkins/4-jenkins-提交PR.md",
     "HomePage.md",
     "linux/openLDAP/3-centos7-support-LDAP.md",
     "linux/openLDAP/1-base-operation.md",
@@ -273,13 +271,9 @@
     "production_issue/images/port-range.png",
     "https/SSL/6-zookeeper-ssl-test.md",
     "images/tls.md",
-    "https/SSL/zookeeper-client-certificate-select.md",
     "https/SSL/images/certificateRequestExample.png",
-    "https/SSL/make-certificate-safe.md",
     "images",
     "https/SSL/images/tls_client_cert.png",
-    "https/SSL/client-日志.md",
-    "https/SSL/server-日志.md",
     "IDE/emacs",
     "IDE/vim",
     "IDE/Obsidian/images/outline2.png",
