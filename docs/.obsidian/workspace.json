@@ -24,7 +24,7 @@
             }
           },
           {
-            "id": "01059678b3ca3351",
+            "id": "2c9dad6d986c23be",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,29 +36,9 @@
               "icon": "lucide-file",
               "title": "7-jenkins一些复杂逻辑整合时的操作"
             }
-          },
-          {
-            "id": "55b6d7627b9001d7",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kanban/2024/11/2024-11-01周(28-03).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "2024-11-01周(28-03)"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,19 +212,25 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-day-planner:Timeline": false
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "55b6d7627b9001d7",
+  "active": "2c9dad6d986c23be",
   "lastOpenFiles": [
-    "kanban/2024/10/2024-10-04周(21-27).md",
-    "kanban/2024/11/2024-11-01周(28-03).md",
-    "devOps/jenkins/7-jenkins一些复杂逻辑整合时的操作.md",
-    "devOps/jenkins/6-自动化pump-platform-搭建.md",
+    "devOps/jenkins/6-自动化测试platform搭建.md",
     "devOps/jenkins/5-jenkins-获取build-job后的版本号.md",
+    "devOps/jenkins/3-jenkins-部署包含symbolic的文件.md",
     "devOps/jenkins/4-jenkins-提交PR.md",
+    "devOps/jenkins/build-job.md",
     "HomePage.md",
+    "devOps/jenkins/Untitled.canvas",
+    "devOps/jenkins/2-credentials-api.md",
+    "linux/java/1-获取运行中java的工作目录.md",
+    "kanban/2024/11/2024-11-01周(28-03).md",
+    "linux/java",
+    "kanban/2024/10/2024-10-04周(21-27).md",
+    "devOps/jenkins/7-jenkins一些复杂逻辑整合时的操作.md",
     "linux/openLDAP/3-centos7-support-LDAP.md",
     "linux/openLDAP/1-base-operation.md",
     "linux/openLDAP/2-exception.md",
@@ -265,12 +251,8 @@
     "IDE/vmware/images",
     "IDE/vmware/0-vmware-index.md",
     "IDE/vmware",
-    "image/directly_mem/1.java-off-heap-memory.md",
     "image/directly_mem",
-    "production_issue/3-random-port-range.md",
     "production_issue/images/port-range.png",
-    "https/SSL/6-zookeeper-ssl-test.md",
-    "images/tls.md",
     "https/SSL/images/certificateRequestExample.png",
     "images",
     "https/SSL/images/tls_client_cert.png",
@@ -283,7 +265,6 @@
     "https/SSL/images/ca-true.png",
     "https/SSL/images/certificateRequest.png",
     "IDE/chrome/images",
-    "IDE/chrome/新建文件夹",
     "linux/lvm/lvm_command.canvas",
     "Excalidraw/music_backend.canvas"
   ]
