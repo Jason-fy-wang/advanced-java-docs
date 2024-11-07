@@ -122,6 +122,8 @@ description: Organizational Unit for persons
 dn: Distinguished Name
 ou: 单元名称
 
+## add
+ldapadd -x -D "cn=admin,dc=example,dc=com" -H ldapi:/// -f base.ldif -W
 ## verify
 ldapsearch -x -H ldapi:/// -b "dc=example,dc=com"
 ### add uid=mike
@@ -244,6 +246,11 @@ gidNumber: 1000
 uidNumber: 10005
 homeDirectory: /home/john
 
+# add 
+ldapadd -x -H ldapi:/// -D "cn=admin,dc=example,dc=com" -W -f person.ldif
+
+# version
+ldapsearch -x -H ldapi:/// -D "cn=admin,dc=example,dc=com" -W  -b "dc=example,dc=com"
 ```
 
 给上面的用户添加密码:

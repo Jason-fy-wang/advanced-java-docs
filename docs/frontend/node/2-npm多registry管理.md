@@ -7,7 +7,9 @@ tags:
 ## 1. 依赖安装
 
 
-
+```shell
+npm install -g nrm
+```
 
 
 

@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDE/VSCode/2-vscode-debug-error.md",
+                "file": "linux/openLDAP/1-base-operation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-vscode-debug-error"
+              "title": "1-base-operation"
             }
           }
         ],
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#LDAP ",
+                "query": "tag: #node  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.51190185546875
+    "width": 357.51190185546875,
+    "collapsed": true
   },
   "right": {
     "id": "e87587850ad9e032",
@@ -219,6 +220,19 @@
   },
   "active": "778d3c364726f854",
   "lastOpenFiles": [
+    "frontend/node/1-node多环境管理.md",
+    "frontend/node/2-npm多registry管理.md",
+    "frontend/Vue/5-element-plus_Upload下载文件.md",
+    "frontend/Vue/4-Vue-父子信息传递.md",
+    "frontend/Vue/3-Vue-自定义指令.md",
+    "frontend/Vue/2-Vue-Route-With-Parameter.md",
+    "frontend/Vue/1-Vue-Route.md",
+    "frontend/electron/1-electron_with_vue_error.md",
+    "frontend/electron/2-开发环境搭建.md",
+    "frontend/react/2-React-路由.md",
+    "frontend/react/1-React-传参.md",
+    "frontend/node/0-node-index.md",
+    "IDE/VSCode/2-vscode-debug-error.md",
     "IDE/VSCode/images/3-debug.png",
     "IDE/VSCode/images/2-debug.png",
     "Pasted image 20241107141801.png",
@@ -230,7 +244,6 @@
     "review_and_plan/sqlite-db.canvas",
     "review_and_plan/Untitled",
     "review_and_plan/work_technology.canvas",
-    "IDE/VSCode/2-vscode-debug-error.md",
     "HomePage.md",
     "linux/openLDAP/1-base-operation.md",
     "linux/openLDAP/0-LDAP-index.md",
@@ -246,19 +259,8 @@
     "linux/openLDAP/2-exception.md",
     "linux/openLDAP/2-LDAP-term.md",
     "ansible/0-index.md",
-    "devOps/jenkins/7-jenkins一些复杂逻辑整合时的操作.md",
-    "devOps/jenkins/6-自动化测试platform搭建.md",
-    "devOps/jenkins/5-jenkins-获取build-job后的版本号.md",
-    "devOps/jenkins/3-jenkins-部署包含symbolic的文件.md",
-    "devOps/jenkins/4-jenkins-提交PR.md",
-    "devOps/jenkins/build-job.md",
     "devOps/jenkins/Untitled.canvas",
-    "devOps/jenkins/2-credentials-api.md",
-    "linux/java/1-获取运行中java的工作目录.md",
     "linux/java",
-    "kanban/2024/10/2024-10-04周(21-27).md",
-    "linux/openLDAP/4-linux-support-LDAP-auth.md",
-    "IDE/Obsidian/5-open-outline.md",
     "Java/zero-gc",
     "linux/openLDAP",
     "IDE/vmware/images/proxy.png",
@@ -267,7 +269,6 @@
     "image/directly_mem",
     "production_issue/images/port-range.png",
     "https/SSL/images/certificateRequestExample.png",
-    "https/SSL/images/tls_client_cert.png",
     "linux/lvm/lvm_command.canvas",
     "Excalidraw/music_backend.canvas"
   ]
