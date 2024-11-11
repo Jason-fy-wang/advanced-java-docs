@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "778d3c364726f854",
+            "id": "dcb296c76d3091e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/openLDAP/1-base-operation.md",
+                "file": "devOps/jenkins/8-获取credentials并通过API与jenkins交互.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-base-operation"
+              "title": "8-获取credentials并通过API与jenkins交互"
             }
           }
         ],
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.51190185546875,
-    "collapsed": true
+    "width": 357.51190185546875
   },
   "right": {
     "id": "e87587850ad9e032",
@@ -218,8 +217,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "778d3c364726f854",
+  "active": "dcb296c76d3091e1",
   "lastOpenFiles": [
+    "kanban/2024/11/2024-11-03周(11-17).md",
+    "devOps/jenkins/8-获取credentials并通过API与jenkins交互.md",
+    "kanban/2024/11/2024-11-02周(04-10).md",
+    "kanban/2024/11/2024-11-01周(28-03).md",
+    "HomePage.md",
+    "kanban/2024/11/2024-11-05周(25-01).md",
+    "kanban/2024/11/2024-11-04周(18-24).md",
+    "kanban/2024/11/2024-.md",
+    "linux/openLDAP/1-base-operation.md",
+    "python/16-pip-dependency-manage.md",
+    "python/15-pip.conf.md",
     "frontend/node/1-node多环境管理.md",
     "frontend/node/2-npm多registry管理.md",
     "frontend/Vue/5-element-plus_Upload下载文件.md",
@@ -244,21 +254,10 @@
     "review_and_plan/sqlite-db.canvas",
     "review_and_plan/Untitled",
     "review_and_plan/work_technology.canvas",
-    "HomePage.md",
-    "linux/openLDAP/1-base-operation.md",
     "linux/openLDAP/0-LDAP-index.md",
-    "kanban/2024/11/2024-11-01周(28-03).md",
-    "linux/yum/1-yum-china-source.md",
-    "linux/rescue-mode/0-Linux-rescue-mode.md",
     "linux/rescue-mode/images/2-rescue.png",
     "linux/rescue-mode/images/1-rescue.png",
-    "linux/rescue-mode/1-disable-selinux.md",
-    "linux/yum/0-yum-index.md",
-    "linux/openLDAP/3-centos7-support-LDAP.md",
     "linux/yum",
-    "linux/openLDAP/2-exception.md",
-    "linux/openLDAP/2-LDAP-term.md",
-    "ansible/0-index.md",
     "devOps/jenkins/Untitled.canvas",
     "linux/java",
     "Java/zero-gc",
