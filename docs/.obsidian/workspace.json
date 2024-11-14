@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "dcb296c76d3091e1",
+            "id": "8352b82469c5b4e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devOps/jenkins/8-获取credentials并通过API与jenkins交互.md",
+                "file": "devOps/jenkins/9-通过config.xml来更新Jenkins-job.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8-获取credentials并通过API与jenkins交互"
+              "title": "9-通过config.xml来更新Jenkins-job"
             }
           }
         ],
@@ -217,13 +217,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dcb296c76d3091e1",
+  "active": "8352b82469c5b4e1",
   "lastOpenFiles": [
-    "kanban/2024/11/2024-11-03周(11-17).md",
     "devOps/jenkins/8-获取credentials并通过API与jenkins交互.md",
-    "kanban/2024/11/2024-11-02周(04-10).md",
-    "kanban/2024/11/2024-11-01周(28-03).md",
+    "devOps/jenkins/9-通过config.xml来更新Jenkins-job.md",
     "HomePage.md",
+    "kanban/2024/11/2024-11-03周(11-17).md",
+    "ansible/0-index.md",
+    "kanban/2024/11/2024-11-01周(28-03).md",
+    "kanban/2024/11/2024-11-02周(04-10).md",
     "kanban/2024/11/2024-11-05周(25-01).md",
     "kanban/2024/11/2024-11-04周(18-24).md",
     "kanban/2024/11/2024-.md",
@@ -247,14 +249,12 @@
     "IDE/VSCode/images/2-debug.png",
     "Pasted image 20241107141801.png",
     "Pasted image 20241107140557.png",
-    "review_and_plan/1-review.md",
     "IDE/VSCode/images/1-debug-error.png",
     "IDE/VSCode/images",
     "IDE/VSCode/新建文件夹",
     "review_and_plan/sqlite-db.canvas",
     "review_and_plan/Untitled",
     "review_and_plan/work_technology.canvas",
-    "linux/openLDAP/0-LDAP-index.md",
     "linux/rescue-mode/images/2-rescue.png",
     "linux/rescue-mode/images/1-rescue.png",
     "linux/yum",

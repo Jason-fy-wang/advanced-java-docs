@@ -30,7 +30,7 @@ curl -X POST -u "username:token"  jenkins_url/build/job/jobname/buildwithParamet
 header=(curl -X GET -c cookie.txt -u "username:pwd"  --url "http://jenkins_url/crumbIssuer/api/json?concat(//crumbRequestField, ':', //crumb)" )
 
 
-curl -X POST -H "${header}" -b cookie.txt  -u "username:password" jenkins_url/build/job/jobname/buildwithParameters -F "version=version1.0" -F "tagToRun=deploy" 
+curl -X POST -H "${header}" --cookie cookie.txt  -u "username:password" jenkins_url/build/job/jobname/buildwithParameters -F "version=version1.0" -F "tagToRun=deploy" 
 
 ```
 
