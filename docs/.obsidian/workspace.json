@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "8352b82469c5b4e1",
+            "id": "89958b7145f31aa0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devOps/jenkins/9-通过config.xml来更新Jenkins-job.md",
+                "file": "linux/kernel/1-switch-kernel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9-通过config.xml来更新Jenkins-job"
+              "title": "1-switch-kernel"
             }
           }
         ],
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #node  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,10 +183,10 @@
             }
           },
           {
-            "id": "46394b0730f4a9c3",
+            "id": "7ef071006db71ce5",
             "type": "leaf",
             "state": {
-              "type": "timeline",
+              "type": "planner-timeline",
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
@@ -217,17 +217,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8352b82469c5b4e1",
+  "active": "89958b7145f31aa0",
   "lastOpenFiles": [
-    "devOps/jenkins/8-获取credentials并通过API与jenkins交互.md",
-    "devOps/jenkins/9-通过config.xml来更新Jenkins-job.md",
+    "linux/lvm/1-extends-vm-storage.md",
+    "linux/kernel/1-switch-kernel.md",
+    "linux/kernel",
+    "linux/lvm/lvm_command.canvas",
     "HomePage.md",
+    "kanban/2024/11/2024-11-04周(18-24).md",
     "kanban/2024/11/2024-11-03周(11-17).md",
+    "kanban/2024/11/2024-11-02周(04-10).md",
+    "devOps/jenkins/9-通过config.xml来更新Jenkins-job.md",
+    "devOps/jenkins/8-获取credentials并通过API与jenkins交互.md",
     "ansible/0-index.md",
     "kanban/2024/11/2024-11-01周(28-03).md",
-    "kanban/2024/11/2024-11-02周(04-10).md",
     "kanban/2024/11/2024-11-05周(25-01).md",
-    "kanban/2024/11/2024-11-04周(18-24).md",
     "kanban/2024/11/2024-.md",
     "linux/openLDAP/1-base-operation.md",
     "python/16-pip-dependency-manage.md",
@@ -243,8 +247,6 @@
     "frontend/electron/2-开发环境搭建.md",
     "frontend/react/2-React-路由.md",
     "frontend/react/1-React-传参.md",
-    "frontend/node/0-node-index.md",
-    "IDE/VSCode/2-vscode-debug-error.md",
     "IDE/VSCode/images/3-debug.png",
     "IDE/VSCode/images/2-debug.png",
     "Pasted image 20241107141801.png",
@@ -265,10 +267,8 @@
     "IDE/vmware/images/proxy.png",
     "IDE/vmware/images",
     "IDE/vmware",
-    "image/directly_mem",
     "production_issue/images/port-range.png",
     "https/SSL/images/certificateRequestExample.png",
-    "linux/lvm/lvm_command.canvas",
     "Excalidraw/music_backend.canvas"
   ]
 }
