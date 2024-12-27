@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "89958b7145f31aa0",
+            "id": "6546e40e9e6964b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/kernel/1-switch-kernel.md",
+                "file": "linux/kvm/10-kvm-linux-optimize.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-switch-kernel"
+              "title": "10-kvm-linux-optimize"
             }
           }
         ],
@@ -193,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -217,36 +217,48 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "89958b7145f31aa0",
+  "active": "6546e40e9e6964b1",
   "lastOpenFiles": [
-    "linux/lvm/1-extends-vm-storage.md",
-    "linux/kernel/1-switch-kernel.md",
+    "linux/kvm/0-kvm-index.md",
+    "linux/kvm/10-kvm-linux-optimize.md",
+    "linux/kvm/9-kvm-network.md",
+    "linux/kvm/8-kvm-secrets.md",
+    "linux/kvm/7-kvm-volums.md",
+    "linux/kvm/6-kvm-storage-pool.md",
+    "linux/kvm/5-kvm-attach-block.md",
+    "linux/kvm/4-kvm-inspect.md",
+    "linux/kvm/3-kvm-snapshot.md",
+    "linux/kvm/1-kvm-install.md",
+    "linux/kvm/2-kvm-instance.md",
+    "HomePage.md",
+    "linux/kvm/images/cockpit.png",
+    "linux/kvm/images",
+    "linux/kvm/新建文件夹",
+    "linux/lxc/4-openvswitch-install.md",
+    "linux/lxc/2-lxc-install.md",
+    "linux/yum/2-yum-operation.md",
+    "linux/yum/1-yum-china-source.md",
+    "linux/lxc/3-lxc-create-container.md",
+    "linux/lxc/0-lxc-index.md",
+    "linux/lxc/1-lxc-error.md",
+    "linux/kvm",
+    "linux/lxc",
+    "kanban/2024/12/2024-12-01-Week(02-08).md",
+    "kanban/2024/11/2024-11-01周(28-03).md",
+    "kanban/2024/11/2024-11-02周(04-10).md",
+    "kanban/2024/11/2024-11-03周(11-17).md",
+    "kanban/2024/11/2024-11-04周(18-24).md",
+    "kanban/2024/11/2024-11-05周(25-01).md",
+    "kanban/2024/12/2024-12-02-Week(09-15).md",
+    "kanban/2024/12",
+    "xmind/规划.xmind",
+    "review_and_plan/netty_learn.canvas",
+    "review_and_plan/long-target.canvas",
+    "review_and_plan/long-target 1.canvas",
+    "review_and_plan/daily-work.canvas",
+    "review_and_plan/CFA-plan.canvas",
     "linux/kernel",
     "linux/lvm/lvm_command.canvas",
-    "HomePage.md",
-    "kanban/2024/11/2024-11-04周(18-24).md",
-    "kanban/2024/11/2024-11-03周(11-17).md",
-    "kanban/2024/11/2024-11-02周(04-10).md",
-    "devOps/jenkins/9-通过config.xml来更新Jenkins-job.md",
-    "devOps/jenkins/8-获取credentials并通过API与jenkins交互.md",
-    "ansible/0-index.md",
-    "kanban/2024/11/2024-11-01周(28-03).md",
-    "kanban/2024/11/2024-11-05周(25-01).md",
-    "kanban/2024/11/2024-.md",
-    "linux/openLDAP/1-base-operation.md",
-    "python/16-pip-dependency-manage.md",
-    "python/15-pip.conf.md",
-    "frontend/node/1-node多环境管理.md",
-    "frontend/node/2-npm多registry管理.md",
-    "frontend/Vue/5-element-plus_Upload下载文件.md",
-    "frontend/Vue/4-Vue-父子信息传递.md",
-    "frontend/Vue/3-Vue-自定义指令.md",
-    "frontend/Vue/2-Vue-Route-With-Parameter.md",
-    "frontend/Vue/1-Vue-Route.md",
-    "frontend/electron/1-electron_with_vue_error.md",
-    "frontend/electron/2-开发环境搭建.md",
-    "frontend/react/2-React-路由.md",
-    "frontend/react/1-React-传参.md",
     "IDE/VSCode/images/3-debug.png",
     "IDE/VSCode/images/2-debug.png",
     "Pasted image 20241107141801.png",
@@ -259,16 +271,9 @@
     "review_and_plan/work_technology.canvas",
     "linux/rescue-mode/images/2-rescue.png",
     "linux/rescue-mode/images/1-rescue.png",
-    "linux/yum",
     "devOps/jenkins/Untitled.canvas",
-    "linux/java",
-    "Java/zero-gc",
-    "linux/openLDAP",
     "IDE/vmware/images/proxy.png",
-    "IDE/vmware/images",
-    "IDE/vmware",
     "production_issue/images/port-range.png",
-    "https/SSL/images/certificateRequestExample.png",
     "Excalidraw/music_backend.canvas"
   ]
 }
