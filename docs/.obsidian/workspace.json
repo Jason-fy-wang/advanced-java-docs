@@ -219,6 +219,8 @@
   },
   "active": "bb93735c66b2e978",
   "lastOpenFiles": [
+    "linux/kvm/Untitled.md",
+    "linux/kvm/9-kvm-network.md",
     "linux/kvm/images/virbr0-2.png",
     "linux/kvm/images/virbr0-1.png",
     "linux/kvm/8-kvm-secrets.md",
@@ -236,7 +238,6 @@
     "Excalidraw/Drawing 2024-11-26 18.49.58.excalidraw.md",
     "Excalidraw/brother_merge.md",
     "linux/kvm/0-kvm-index.md",
-    "linux/kvm/9-kvm-network.md",
     "linux/kvm/1-kvm-install.md",
     "linux/kvm/2-kvm-instance.md",
     "linux/kvm/images/cockpit.png",
@@ -273,7 +274,6 @@
     "linux/rescue-mode/images/2-rescue.png",
     "linux/rescue-mode/images/1-rescue.png",
     "devOps/jenkins/Untitled.canvas",
-    "IDE/vmware/images/proxy.png",
     "Excalidraw/music_backend.canvas"
   ]
 }

@@ -68,7 +68,44 @@ virsh net-autostart default
 ![](./images/virbr0-2.png)
 
 
+> interface operation
 
+
+```shell
+# xml define
+<interface type='bridge' name='test-brg'>
+	<start mode='onboot'/>
+	<protocol family='ipv4'>
+		<ip address='192.168.1.100' prefix='24'/>
+	</protocol>
+
+	<bridge>
+		<interface type='ethernet' name='vnet0'>
+			<mac address='fe:54:00:55:9b:d6'/>
+		</interface>
+	</bridge>
+</interface>
+
+# define interface
+virsh iface-define iface.xml
+
+virsh iface-list --all
+# up interface
+virsh iface-start test-brg
+
+# show interface info
+virsh iface-info test-brg
+virsh iface-mac test-brg
+virsh iface-name MAC-ADDR
+brctl show
+
+
+# delete interface
+virsh iface-destroy test-brg
+virsh iface-undefine test-brg
+
+
+```
 
 
 
