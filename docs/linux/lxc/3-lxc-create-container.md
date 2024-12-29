@@ -7,6 +7,7 @@ tags:
 > create container
 
 ```shell
+## 1. 通过模板创建容器
 [root@localhost admin]# lxc-create -t download -n c3 -- --keyserver hkp://keyserver.ubuntu.com:80
 Setting up the GPG keyring
 Downloading the image index
@@ -164,5 +165,123 @@ Unpacking the rootfs
 
 ---
 You just created a Centos 9-Stream x86_64 (20241224_07:08) container.
+
+
+
+## 2. 通过debootstrap工具常见
+debootstrap arch=amd64 stable ~/container http://deb.debian.org/debian
+
+debootstrap --arch=amd64 --include="openssh-server vim"  stable ./con1 http://httpredir.debian.org/debian
+
+lxc-create --name manual-container -t none -B dir --dir ~/container -f ~/config
+
+
+## 3. 通过 yum 工具
+rpm --root /root/container --initdb
+yumdownloader --destdir=/tmp  centos-release
+rpm -root /root/container -ivh --nodeps /tmp/centos-release.x86_64.rpm
+yum --installroot=/root/container -y group install 'Minimal install'
+
+
+## 4. pull image from lxc 镜像仓库
+lxc launch  ubuntu:20.04  my-container
+lxc launch /path/local-image.tar.gz my-container
+
+## 5. 
+lxc  init ubuntu:20.04  mu-container
+
+## 6. lxd
+apt install lxd
+lxd init
+lxd launch ubuntu:20.04 my-container
+
+## 7. debootstrap 安装 debian 最小化系统
+debootstrap --arch amd64 stable /gfix_log/images/con1   http://deb.debian.org/debian
+
+
 ```
 
+
+
+> container config
+
+
+
+```shell
+## 可以查找man 看全部item
+man 5 lxc.container.conf
+
+root@ubuntu:~# vim ~/config 
+lxc.devttydir = lxc 
+lxc.pts = 1024 
+lxc.tty = 4 
+lxc.pivotdir = lxc_putold 
+## enable auto start
+lxc.start.auto=1
+## default init command
+lxc.init.cmd=/sbin/init
+
+## enable console access to container
+lxc.console=/dev/console
+## run container in background
+lxc.start.order=30
+
+## set default LXC container template
+lxc.include = /usr/share/lxc/config/common.conf
+
+# 禁止访问所有设备
+lxc.cgroup.devices.deny = a 
+# 允许访问所有 字符设备
+## c 字符设备
+## *:*  允许访问所有  主设备号:次设备号
+## m  mknode 创建操作
+lxc.cgroup.devices.allow = c *:* m 
+# 允许访问搜友 block 设备
+lxc.cgroup.devices.allow = b *:* m 
+# 允许访问 字符设备
+## c 字符设备
+## 1:3 指定了主设备号 和 次设备号
+## rwm  read  write mknode 操作
+lxc.cgroup.devices.allow = c 1:3 rwm 
+lxc.cgroup.devices.allow = c 1:5 rwm 
+lxc.cgroup.devices.allow = c 1:7 rwm 
+lxc.cgroup.devices.allow = c 5:0 rwm 
+lxc.cgroup.devices.allow = c 5:1 rwm 
+lxc.cgroup.devices.allow = c 5:2 rwm 
+lxc.cgroup.devices.allow = c 1:8 rwm 
+lxc.cgroup.devices.allow = c 1:9 rwm 
+lxc.cgroup.devices.allow = c 136:* rwm 
+lxc.cgroup.devices.allow = c 10:229 rwm 
+lxc.cgroup.devices.allow = c 254:0 rm 
+lxc.cgroup.devices.allow = c 10:200 rwm 
+# 自动挂载 虚拟设备 proc  cgroup  sys
+lxc.mount.auto = cgroup:mixed proc:mixed sys:mixed 
+# 主机 和 container 共享目录 挂在
+lxc.mount.entry = /host/dir /path/in_container none bind,optional 0 0 
+lxc.mount.entry = /sys/kernel/debug sys/kernel/debug none bind,optional 0 0 
+lxc.mount.entry = /sys/kernel/security sys/kernel/security none bind,optional 0 0 
+lxc.mount.entry = /sys/fs/pstore sys/fs/pstore none bind,optional 0 0 
+lxc.mount.entry = mqueue dev/mqueue mqueue rw,relatime,create=dir,optional 0 0 
+# Container specific configuration 
+lxc.arch = x86_64 
+lxc.rootfs.path = dir:/root/container 
+lxc.utsname = manual_container 
+# Network configuration 
+lxc.network.type = veth 
+lxc.network.link = lxcbr0 
+lxc.network.flags = up 
+lxc.network.hwaddr = 00:16:3e:e4:68:91 
+lxc.network.ipv4 = 10.0.3.151/24 10.0.3.255 
+lxc.network.ipv4.gateway = 10.0.3.1 
+# Limit the container memory to 512MB 
+lxc.cgroup.memory.limit_in_bytes = 536870912
+## limit the number of process
+lxc.limit.nproc=1024
+## cpu share limit
+lxc.cgroup.cpu.shares=1024
+
+## default log options
+lxc.log.file=/tmp/container.log
+lxc.log.level=DEBUG
+
+```

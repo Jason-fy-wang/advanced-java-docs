@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "bb93735c66b2e978",
+            "id": "bc302a51765ee109",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/kvm/9-kvm-network.md",
+                "file": "linux/lxc/3-lxc-create-container.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9-kvm-network"
+              "title": "3-lxc-create-container"
             }
           }
         ],
@@ -217,16 +217,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bb93735c66b2e978",
+  "active": "bc302a51765ee109",
   "lastOpenFiles": [
-    "linux/kvm/Untitled.md",
+    "linux/kvm/0-kvm-index.md",
+    "linux/lxc/3-lxc-create-container.md",
+    "linux/lxc/4-openvswitch-install.md",
+    "linux/lxc/1-lxc-error.md",
+    "linux/lxc/2-lxc-install.md",
+    "linux/lxc/0-lxc-index.md",
+    "HomePage.md",
     "linux/kvm/9-kvm-network.md",
+    "linux/kvm/Untitled.md",
     "linux/kvm/images/virbr0-2.png",
     "linux/kvm/images/virbr0-1.png",
     "linux/kvm/8-kvm-secrets.md",
     "linux/kvm/7-kvm-volums.md",
     "linux/kvm/6-kvm-storage-pool.md",
-    "HomePage.md",
     "linux/kvm/13-share-directory-between-host-and-kvm.md",
     "linux/kvm/5.1-kvm-attach-device.md",
     "linux/kvm/5-kvm-attach-block.md",
@@ -237,19 +243,13 @@
     "linux/kvm/10-kvm-linux-optimize.md",
     "Excalidraw/Drawing 2024-11-26 18.49.58.excalidraw.md",
     "Excalidraw/brother_merge.md",
-    "linux/kvm/0-kvm-index.md",
     "linux/kvm/1-kvm-install.md",
     "linux/kvm/2-kvm-instance.md",
     "linux/kvm/images/cockpit.png",
     "linux/kvm/images",
     "linux/kvm/新建文件夹",
-    "linux/lxc/4-openvswitch-install.md",
-    "linux/lxc/2-lxc-install.md",
     "linux/yum/2-yum-operation.md",
     "linux/yum/1-yum-china-source.md",
-    "linux/lxc/3-lxc-create-container.md",
-    "linux/lxc/0-lxc-index.md",
-    "linux/lxc/1-lxc-error.md",
     "linux/kvm",
     "linux/lxc",
     "kanban/2024/12",
