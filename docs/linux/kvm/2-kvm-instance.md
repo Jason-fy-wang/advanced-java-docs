@@ -31,6 +31,21 @@ virt-install --name=ubuntu-22 --description="ubuntu server" --os-variant=ubuntu2
 --boot menu=on: 启动时显示引导菜单
 -hvm: The guest VM is fully virtualized
 
+## install from inernet
+sudo virt-install \
+  --name ubuntu-instance \
+  --ram 2048 \
+  --vcpus 2 \
+  --disk size=20,path=/var/lib/libvirt/images/ubuntu-instance.qcow2,format=qcow2 \
+  --os-type linux \
+  --os-variant ubuntu20.04 \
+  --graphics none \
+  --console pty,target_type=serial \
+  --network network=default \
+  --location http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/ \
+  --extra-args "console=ttyS0,115200n8 serial"
+
+
 # 在安装过程中 创建了账户,故可以使用创建的账户登录
 ## 查看 kvm ip
 virsh net-dhcp-leases default 

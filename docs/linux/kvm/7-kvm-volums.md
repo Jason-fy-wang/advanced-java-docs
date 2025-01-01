@@ -3,7 +3,7 @@ tags:
   - kvm
   - volums
 ---
-volume operation
+ volume operation
 ```shell
 # 1. list volume
 virsh vol-list file_virtimages

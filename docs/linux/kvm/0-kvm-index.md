@@ -5,7 +5,7 @@ tags:
   - kvm-index
 ---
 [[1-kvm-install]]
-[[2-kvm-instance]]]
+[[2-kvm-instance]]
 [[3-kvm-snapshot]]
 [[4-kvm-inspect]]
 [[5-kvm-attach-block]]
