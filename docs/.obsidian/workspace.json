@@ -10,18 +10,35 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/kvm/5-kvm-attach-block.md",
+                "file": "HomePage.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "HomePage"
+            }
+          },
+          {
+            "id": "c23442f8665bbe11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/shell/1-multiple-xargs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5-kvm-attach-block"
+              "title": "1-multiple-xargs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,11 +217,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c23442f8665bbe11",
   "lastOpenFiles": [
+    "linux/shell/images/symbolic1.png",
+    "linux/shell/images/symbolic.png",
+    "linux/shell/images",
+    "HomePage.md",
+    "linux/shell/1-multiple-xargs.md",
+    "linux/shell",
+    "kanban/2025/01/2025-01-1week(01-05).md",
+    "linux/kvm/5-kvm-attach-block.md",
     "linux/kvm/9-kvm-network.md",
     "linux/kvm/5.1-kvm-attach-device.md",
-    "linux/kvm/5-kvm-attach-block.md",
     "linux/kvm/7-kvm-volums.md",
     "linux/kvm/6-kvm-storage-pool.md",
     "linux/kvm/13-share-directory-between-host-and-kvm.md",
@@ -215,7 +239,6 @@
     "kanban/2025/Goal.md",
     "xmind/KVM.xmind",
     "kanban/2025/Daliy.md",
-    "kanban/2025/01/2025-01-1week(01-05).md",
     "kanban/2025/01/2025-01-4week(20-26).md",
     "kanban/2025/01/2025-01-3week(13-19).md",
     "kanban/2025/01/2025-01-2week(06-12).md",
@@ -228,16 +251,11 @@
     "kanban/2025/08",
     "kanban/2025/07",
     "kanban/2025/06",
-    "kanban/2025/05",
-    "kanban/2025/04",
     "kanban/2024/12/2024-12-04-Week(23-29).md",
     "kanban/2024/12/2024-12-02-Week(09-15).md",
     "kanban/2024/12/2024-12-01-Week(02-08).md",
     "linux/lxc/5-lxc-container-network.md",
     "linux/lxc/0-lxc-index.md",
-    "linux/lxc/1-lxc-error.md",
-    "linux/lxc/4-lxc-container-operation.md",
-    "linux/lxc/2-lxc-install.md",
     "linux/kvm/images/virbr0-2.png",
     "linux/kvm/images/virbr0-1.png",
     "linux/kvm/images/cockpit.png",
@@ -255,7 +273,6 @@
     "review_and_plan/sqlite-db.canvas",
     "review_and_plan/work_technology.canvas",
     "linux/rescue-mode/images/2-rescue.png",
-    "linux/rescue-mode/images/1-rescue.png",
     "devOps/jenkins/Untitled.canvas",
     "Excalidraw/music_backend.canvas"
   ]
