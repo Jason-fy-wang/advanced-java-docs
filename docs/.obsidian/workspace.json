@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/shell/4-curl.md",
+                "file": "IDE/vmware/2-vmware-nat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4-curl"
+              "title": "2-vmware-nat"
             }
           }
         ],
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vmware",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,9 +219,16 @@
   },
   "active": "985594a2ba0e7a06",
   "lastOpenFiles": [
+    "IDE/vmware/images/net/nat.png",
+    "IDE/vmware/images/net/service.png",
+    "IDE/vmware/images/net",
+    "IDE/vmware/images/新建文件夹",
+    "IDE/vmware/1-代理打开-NAT不能访问网络.md",
+    "IDE/vmware/2-vmware-nat.md",
+    "IDE/vmware/0-vmware-index.md",
+    "linux/shell/4-curl.md",
     "linux/shell/images/curl/resolve1.png",
     "linux/shell/3-find-symbolic.md",
-    "linux/shell/4-curl.md",
     "linux/shell/images/find/link2.png",
     "linux/shell/images/find/link1.png",
     "linux/shell/images/curl",
@@ -241,8 +248,6 @@
     "git/images/rebase/split6.png",
     "git/images/rebase/split5.png",
     "git/images/rebase/split4.png",
-    "git/images/rebase/split3.png",
-    "git/images/rebase/split1.png",
     "git/images/rebase",
     "git/3-git-save-symbolic-file.md",
     "git/1-如何检查git中的文件类型.md",
@@ -257,14 +262,9 @@
     "linux/kvm/3-kvm-snapshot.md",
     "linux/kvm/2-kvm-instance.md",
     "linux/kvm/12-kvm-console-login.md",
-    "linux/kvm/9-kvm-network.md",
-    "linux/shell/1-multiple-xargs.md",
-    "Excalidraw/brother_merge.md",
     "linux/shell/images",
     "linux/shell",
     "xmind/KVM.xmind",
-    "kanban/2025/11",
-    "kanban/2025/12",
     "review_and_plan/netty_learn.canvas",
     "review_and_plan/long-target.canvas",
     "review_and_plan/long-target 1.canvas",
