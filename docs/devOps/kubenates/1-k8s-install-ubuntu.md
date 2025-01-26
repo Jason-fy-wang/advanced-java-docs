@@ -42,3 +42,4 @@ sudo kubeadm init
 > reference
 
 [k8s install step](https://hbayraktar.medium.com/how-to-install-kubernetes-cluster-on-ubuntu-22-04-step-by-step-guide-7dbf7e8f5f99)
+[[6-ubuntu-set-proxy-for-docker]]
