@@ -31,6 +31,14 @@ stage("syntax check") {
 
 ```
 
+如果不确定要把哪些 folder添加到 ruby的 search path中, 可以找一台正常安装了 ruby的环境,  查看其的search path是什么.
+```shell
+## 查看 ruby的search path
+ruby -e 'puts $:'
+
+```
+
+
 > 注意点:
 
 1. 设置动态加载库到 `LD_LIBRARY_PATH`
