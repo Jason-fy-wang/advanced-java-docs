@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"1f88d145f11efaac","type":"text","text":"LifeCycle","x":-480,"y":-220,"width":120,"height":60},
+		{"id":"0a470501e3c4dc39","type":"text","text":"Phase1","x":-260,"y":-380,"width":120,"height":60},
+		{"id":"119cf0f82c060b00","type":"text","text":"Phase2","x":-260,"y":-250,"width":120,"height":60},
+		{"id":"a4fc1b71e7867e5a","type":"text","text":"Phase3","x":-260,"y":-120,"width":120,"height":60},
+		{"id":"9b664864e37b640b","type":"text","text":"....","x":-260,"y":0,"width":120,"height":60},
+		{"id":"48945becb2620cf9","type":"text","text":"Goal2","x":-20,"y":-410,"width":107,"height":60},
+		{"id":"cd056ba48625357f","type":"text","text":"Goal1","x":-20,"y":-490,"width":107,"height":60},
+		{"id":"da705650c1607f86","type":"text","text":"Goal3","x":-20,"y":-340,"width":107,"height":60},
+		{"id":"2969d952ff4facff","type":"text","text":"Goal1","x":-20,"y":-260,"width":107,"height":60},
+		{"id":"c1f19fa92edd6192","type":"text","text":"Goal2","x":-20,"y":-190,"width":107,"height":60}
+	],
+	"edges":[
+		{"id":"81b7a782ede89ff4","fromNode":"1f88d145f11efaac","fromSide":"right","toNode":"0a470501e3c4dc39","toSide":"left"},
+		{"id":"eb96abed738d2363","fromNode":"1f88d145f11efaac","fromSide":"right","toNode":"119cf0f82c060b00","toSide":"left"},
+		{"id":"479e82b48d17d3e7","fromNode":"1f88d145f11efaac","fromSide":"right","toNode":"a4fc1b71e7867e5a","toSide":"left"},
+		{"id":"f030146ca6a2b715","fromNode":"1f88d145f11efaac","fromSide":"right","toNode":"9b664864e37b640b","toSide":"left"},
+		{"id":"5809dbe09b23872b","fromNode":"0a470501e3c4dc39","fromSide":"right","toNode":"cd056ba48625357f","toSide":"left"},
+		{"id":"c44861ce1eeb97d0","fromNode":"0a470501e3c4dc39","fromSide":"right","toNode":"48945becb2620cf9","toSide":"left"},
+		{"id":"048e6dcb3fee2d01","fromNode":"0a470501e3c4dc39","fromSide":"right","toNode":"da705650c1607f86","toSide":"left"},
+		{"id":"3ecf51c8f646c721","fromNode":"119cf0f82c060b00","fromSide":"right","toNode":"2969d952ff4facff","toSide":"left"},
+		{"id":"866144282befec91","fromNode":"119cf0f82c060b00","fromSide":"right","toNode":"c1f19fa92edd6192","toSide":"left"}
+	]
+}
