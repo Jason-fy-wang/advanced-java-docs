@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "d7c898dc9cec5f6d",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "d6323d2013a84725",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -24,13 +24,13 @@
             }
           },
           {
-            "id": "2bbebaae04d6057e",
+            "id": "0cbdb89eaf2e53f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "linux/shell/5-shell-set.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag: shell set",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -218,13 +218,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2bbebaae04d6057e",
+  "active": "5776e522bce60b68",
   "lastOpenFiles": [
+    "HomePage.md",
+    "linux/shell/5-shell-set.md",
     "linux/shell/images/set/setx.png",
     "linux/shell/images/set",
     "linux/shell/images/新建文件夹",
-    "HomePage.md",
-    "linux/shell/5-shell-set.md",
     "Java/maven/3-how-to-debug-maven-source-code.md",
     "Java/maven/images/debug/begin.png",
     "Java/maven/images/debug/mvnDebug.png",
@@ -261,7 +261,6 @@
     "linux/shell/3-find-symbolic.md",
     "linux/kvm/16-kvm-disk-increment.md",
     "linux/kvm/images/disk/resize.png",
-    "linux/kvm/images/disk/resize_success.png",
     "linux/kvm/images/disk",
     "linux/kvm/images/新建文件夹",
     "devOps/kubenates/0-kubenates-index.md",

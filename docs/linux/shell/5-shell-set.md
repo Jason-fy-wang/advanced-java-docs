@@ -39,6 +39,8 @@ set +x
 
 # call parent parameter
 
+env | grep parentexport
+
 echo $parentexport
 ```
 ![](./images/set/setx.png)
