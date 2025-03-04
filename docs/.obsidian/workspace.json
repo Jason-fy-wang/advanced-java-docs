@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d7c898dc9cec5f6d",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "d6323d2013a84725",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -24,17 +24,29 @@
             }
           },
           {
-            "id": "0cbdb89eaf2e53f6",
+            "id": "65355fe13745d23a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/shell/5-shell-set.md",
-                "mode": "preview",
+                "file": "Java/1-java-值传递.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5-shell-set"
+              "title": "1-java-值传递"
+            }
+          },
+          {
+            "id": "c4bc354d2994150e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Java/images/base/value-pass.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "value-pass.excalidraw"
             }
           }
         ],
@@ -218,8 +230,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5776e522bce60b68",
+  "active": "65355fe13745d23a",
   "lastOpenFiles": [
+    "Java/images/base/value-pass.excalidraw.md",
+    "Java/1-java-值传递.md",
+    "Java/Untitled",
+    "Java/images/base/value-pass.png",
+    "Java/images/base",
+    "Java/images/新建文件夹",
+    "Java/images",
+    "Java/新建文件夹",
     "HomePage.md",
     "linux/shell/5-shell-set.md",
     "linux/shell/images/set/setx.png",
@@ -242,11 +262,9 @@
     "Java/maven/images/Lifecycle.canvas",
     "Java/maven/images/LifeCycle.md",
     "images",
-    "Java/maven/images",
     "Java/maven/plugins/8-jetty-plugin.md",
     "Java/maven/plugins/1-maven-resources.md",
     "Java/maven/plugins/0-maven-index.md",
-    "xmind/puppet.xmind",
     "devOps/kubenates/4-create-serviceaccount-for-kubectl.md",
     "devOps/jenkins/12-fullpath-caused-issue.md",
     "kanban/2025/01/2025-01-4week(20-26).md",
@@ -260,12 +278,7 @@
     "linux/kvm/14-new-vm-clone.md",
     "linux/shell/3-find-symbolic.md",
     "linux/kvm/16-kvm-disk-increment.md",
-    "linux/kvm/images/disk/resize.png",
-    "linux/kvm/images/disk",
-    "linux/kvm/images/新建文件夹",
     "devOps/kubenates/0-kubenates-index.md",
-    "linux/kvm/15-kvm-iptables.md",
-    "IDE/vmware/images/net",
     "review_and_plan/netty_learn.canvas",
     "review_and_plan/long-target.canvas",
     "review_and_plan/long-target 1.canvas",
