@@ -5,6 +5,9 @@ tags:
 ---
 #### ldapseach
 ```shell
+
+systemctl restart slapd
+
 syntax:
 ldapsearch [options] [filter]  [attributes]
 ## search all
