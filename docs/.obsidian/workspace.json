@@ -10,49 +10,18 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HomePage.md",
+                "file": "Java/tomcat/5-tomcat启动.md",
                 "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "HomePage"
-            }
-          },
-          {
-            "id": "c1d4ec322ea1d425",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/develop_sdk/1_SDK_install.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1_SDK_install"
-            }
-          },
-          {
-            "id": "6bafdcafd7119909",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "frontend/node/1-node多环境管理.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1-node多环境管理"
+              "title": "5-tomcat启动"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag: #nvm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,15 +201,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c1d4ec322ea1d425",
+  "active": "5776e522bce60b68",
   "lastOpenFiles": [
-    "frontend/node/1-node多环境管理.md",
+    "Java/http",
+    "Java/netty/source/mu-server/0-mu-server-index.md",
+    "Java/netty/source/mu-server/1-mu-server-如何整合到netty中.md",
+    "Java/netty/source/mu-server/2-mu-server-http-handler解析.md",
+    "Java/netty/source/0-netty-index.md",
+    "Java/netty/source/1-NioEventLoopGroup的初始化.md",
+    "HomePage.md",
+    "python/metaprogram/1-meta-program.md",
+    "python/metaprogram/2-thread-communication.md",
+    "python/metaprogram",
     "linux/develop_sdk/1_SDK_install.md",
+    "frontend/node/1-node多环境管理.md",
     "linux/develop_sdk/images/groovy_install.png",
     "linux/develop_sdk/images/java_install.png",
     "linux/develop_sdk/images",
     "linux/develop_sdk",
-    "HomePage.md",
     "linux/openLDAP/1-base-operation.md",
     "linux/openLDAP/2-exception.md",
     "linux/openLDAP/3-centos7-support-LDAP.md",
@@ -250,7 +228,6 @@
     "Java/maven/1-maven-lifecycle.md",
     "Java/1-java-值传递.md",
     "Java/images/base/value-pass.excalidraw.md",
-    "Java/Untitled",
     "Java/images/base/value-pass.png",
     "Java/images/base",
     "Java/images/新建文件夹",
@@ -267,19 +244,11 @@
     "Java/maven/images/debug/debug_config.png",
     "Java/maven/images/debug/idea_open.png",
     "Java/maven/images/debug/download.png",
-    "Java/maven/images/debug",
     "images/lifecycle.md",
     "Java/maven/images/Lifecycle.canvas",
     "Java/maven/images/LifeCycle.md",
     "Java/maven/plugins/8-jetty-plugin.md",
     "Java/maven/plugins/1-maven-resources.md",
-    "Java/maven/plugins/0-maven-index.md",
-    "devOps/kubenates/4-create-serviceaccount-for-kubectl.md",
-    "devOps/jenkins/12-fullpath-caused-issue.md",
-    "kanban/2025/01/2025-01-4week(20-26).md",
-    "kanban/2025/01/2025-01-3week(13-19).md",
-    "kanban/2025/01/2025-01-2week(06-12).md",
-    "kanban/2025/01/2025-01-1week(01-05).md",
     "review_and_plan/netty_learn.canvas",
     "review_and_plan/long-target.canvas",
     "review_and_plan/long-target 1.canvas",
