@@ -1,0 +1,13 @@
+---
+tags:
+  - python
+  - metaprogram
+---
+
+
+
+
+
+
+
+
