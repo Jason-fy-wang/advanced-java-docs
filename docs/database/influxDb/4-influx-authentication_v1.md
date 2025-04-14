@@ -1,0 +1,7 @@
+---
+tags:
+  - influx
+  - influx-auth
+---
+
+

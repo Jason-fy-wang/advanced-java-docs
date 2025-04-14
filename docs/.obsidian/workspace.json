@@ -24,17 +24,27 @@
             }
           },
           {
-            "id": "49d22d470de4fd7e",
+            "id": "51fcb9a7e5ff4e7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/thread/1-thread-communication.md",
+                "file": "database/influxDb/1-influxDb-install_v1.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": true,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "1-thread-communication"
+              "title": "1-influxDb-install_v1"
             }
           }
         ],
@@ -70,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rebase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -218,8 +228,31 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5776e522bce60b68",
+  "active": "51fcb9a7e5ff4e7f",
   "lastOpenFiles": [
+    "database/influxDb/images/create_db.png",
+    "database/influxDb/images",
+    "database/influxDb/新建文件夹",
+    "database/influxDb/5-influx-API_v1.md",
+    "database/influxDb/4-influx-authentication_v1.md",
+    "database/influxDb/3-influx-write_v1.md",
+    "database/influxDb/2-influxdb-query_v1.md",
+    "database/influxDb/1-influxDb-install_v1.md",
+    "database/Mysql/6-mvcc-演示.md",
+    "database/influxDb",
+    "Java/redis/13-redis-热点key优化.md",
+    "question/场景/redis/1-redis-question.md",
+    "Java/redis/images/redis-cluster.md",
+    "Java/redis/images/Untitled.canvas",
+    "Java/redis/images",
+    "Java/redis/1-redis-aof备份.md",
+    "question/场景/redis",
+    "HomePage.md",
+    "devOps/jenkins/6-自动化测试platform搭建.md",
+    "devOps/jenkins/5-jenkins-获取build-job后的版本号.md",
+    "devOps/jenkins/7-jenkins一些复杂逻辑整合时的操作.md",
+    "git/5-git-rebase-clean-up-history.md",
+    "python/thread/1-thread-communication.md",
     "python/thread/images/event.png",
     "python/thread/images/condition1.png",
     "python/thread/images/condition.png",
@@ -227,14 +260,12 @@
     "python/thread/images/event1.png",
     "python/thread/images",
     "python/5-multi-thread.md",
-    "python/thread/1-thread-communication.md",
     "python/thread",
     "python/metaprogram/Untitled",
     "python/metaprogram/1-meta-program.md",
     "python/metaprogram/images/wrapper.png",
     "python/metaprogram/images",
     "devOps/jenkins/13-complex-data-parse.md",
-    "HomePage.md",
     "python/8-xml.md",
     "Java/netty/http/1-netty-parse-http.md",
     "Java/http/1-http-chunk-stream.md",
@@ -243,29 +274,9 @@
     "Java/http/images/response.png",
     "Java/http/images/request.png",
     "Java/http/images",
-    "Java/netty/http",
     "README.md",
     "Java/tomcat/5-tomcat启动.md",
-    "Java/http",
     "Java/netty/source/mu-server/0-mu-server-index.md",
-    "Java/netty/source/mu-server/1-mu-server-如何整合到netty中.md",
-    "Java/netty/source/mu-server/2-mu-server-http-handler解析.md",
-    "Java/netty/source/0-netty-index.md",
-    "Java/netty/source/1-NioEventLoopGroup的初始化.md",
-    "python/metaprogram",
-    "linux/develop_sdk/1_SDK_install.md",
-    "frontend/node/1-node多环境管理.md",
-    "linux/develop_sdk/images/groovy_install.png",
-    "linux/develop_sdk/images",
-    "linux/develop_sdk",
-    "linux/openLDAP/1-base-operation.md",
-    "linux/openLDAP/2-exception.md",
-    "linux/openLDAP/3-centos7-support-LDAP.md",
-    "linux/lvm/1-extends-vm-storage.md",
-    "Java/maven/3-maven-dependency-practise.md",
-    "Java/maven/2-dependency-best-practise.md",
-    "Java/maven/1-maven-lifecycle.md",
-    "Java/1-java-值传递.md",
     "Java/maven/images/Lifecycle.canvas",
     "review_and_plan/netty_learn.canvas",
     "review_and_plan/long-target.canvas",
@@ -274,7 +285,6 @@
     "review_and_plan/CFA-plan.canvas",
     "linux/lvm/lvm_command.canvas",
     "review_and_plan/sqlite-db.canvas",
-    "review_and_plan/work_technology.canvas",
-    "devOps/jenkins/Untitled.canvas"
+    "review_and_plan/work_technology.canvas"
   ]
 }

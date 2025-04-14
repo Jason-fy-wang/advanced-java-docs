@@ -1,0 +1,5 @@
+---
+tags:
+  - influx-write
+  - influxdb
+---

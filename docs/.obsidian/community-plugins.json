@@ -15,5 +15,6 @@
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "table-editor-obsidian",
-  "dataview"
+  "dataview",
+  "floating-toc"
 ]

@@ -1,8 +1,13 @@
-[TOC]
+---
+tags:
+  - mysql
+  - MVCC
+---
+
 
 # mvcc
 
-muti-version  Concurrent control(多版本并发控制). mvcc 只在read committed 和 repeatable read两个隔离模式下生效，本篇在看一下在这两个模式下并发演示。
+mutiple version  Concurrent control(多版本并发控制). mvcc 只在read committed 和 repeatable read两个隔离模式下生效，本篇在看一下在这两个模式下并发演示。
 
 ```sql
 create table user(
