@@ -17,7 +17,7 @@ tags:
 ### 2. Do server need send certificate chan to client ? need or no need, explain the reason.  (服务器端需要发送证书链到客户端吗?  请接释原因)
 首先说一下, 证书的三种分类.
 证书可以简单分为 两种:
-`CA 证书`:  用于签发其他 client证书的证书, 称为CA证书, 也成为 根证书
+`CA 证书`:  用于签发其他 client证书的证书, 称为CA证书, 也称为 根证书
 `client certificate`:  由 CA 颁发的 client 证书.
 再细分, 就是`CA`还有一种.  
 `intermediate CA`: 即由 根证书(root CA) 签发的 中间证书.  中间证书也可用于签发 client 证书.

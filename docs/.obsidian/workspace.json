@@ -24,27 +24,17 @@
             }
           },
           {
-            "id": "51fcb9a7e5ff4e7f",
+            "id": "2fb86d9064526302",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "database/influxDb/1-influxDb-install_v1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": true,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "https/SSL/2-SSL-question.md",
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "1-influxDb-install_v1"
+              "title": "2-SSL-question"
             }
           }
         ],
@@ -80,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rebase",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -228,8 +218,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "51fcb9a7e5ff4e7f",
+  "active": "2fb86d9064526302",
   "lastOpenFiles": [
+    "HomePage.md",
+    "https/SSL/2-SSL-question.md",
+    "database/influxDb/1-influxDb-install_v1.md",
     "database/influxDb/images/create_db.png",
     "database/influxDb/images",
     "database/influxDb/新建文件夹",
@@ -237,7 +230,6 @@
     "database/influxDb/4-influx-authentication_v1.md",
     "database/influxDb/3-influx-write_v1.md",
     "database/influxDb/2-influxdb-query_v1.md",
-    "database/influxDb/1-influxDb-install_v1.md",
     "database/Mysql/6-mvcc-演示.md",
     "database/influxDb",
     "Java/redis/13-redis-热点key优化.md",
@@ -247,7 +239,6 @@
     "Java/redis/images",
     "Java/redis/1-redis-aof备份.md",
     "question/场景/redis",
-    "HomePage.md",
     "devOps/jenkins/6-自动化测试platform搭建.md",
     "devOps/jenkins/5-jenkins-获取build-job后的版本号.md",
     "devOps/jenkins/7-jenkins一些复杂逻辑整合时的操作.md",
@@ -272,7 +263,6 @@
     "Java/http/images/response1.png",
     "Java/http/images/chunk.png",
     "Java/http/images/response.png",
-    "Java/http/images/request.png",
     "Java/http/images",
     "README.md",
     "Java/tomcat/5-tomcat启动.md",
