@@ -24,23 +24,17 @@
             }
           },
           {
-            "id": "cef88225ee580e46",
+            "id": "5c4254e0d8860b43",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "kanban/2025/05/2025-05-3week(12-18).md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Java/upgrade_JDK17.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "2025-05-3week(12-18)"
+              "icon": "lucide-file",
+              "title": "upgrade_JDK17"
             }
           }
         ],
@@ -101,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.51190185546875
+    "width": 431.5
   },
   "right": {
     "id": "e87587850ad9e032",
@@ -224,8 +218,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "cef88225ee580e46",
+  "active": "5c4254e0d8860b43",
   "lastOpenFiles": [
+    "frontend/css/7-flex.md",
+    "Daily-work/2024-03-08-Friday.md",
     "HomePage.md",
     "kanban/2025/05/2025-05-3week(12-18).md",
     "linux/openLDAP/1-base-operation.md",
@@ -259,8 +255,6 @@
     "question/场景/redis",
     "devOps/jenkins/6-自动化测试platform搭建.md",
     "devOps/jenkins/5-jenkins-获取build-job后的版本号.md",
-    "devOps/jenkins/7-jenkins一些复杂逻辑整合时的操作.md",
-    "git/5-git-rebase-clean-up-history.md",
     "python/thread/images/event.png",
     "python/thread/images/condition1.png",
     "python/thread/images/condition.png",
