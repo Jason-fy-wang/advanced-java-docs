@@ -1,3 +1,10 @@
+---
+tags:
+  - JDK
+  - AQS
+  - semaphore
+---
+
 # AQS-共享锁(semaphore)
 
 今天以semaphore为入口，学习关于AQS共享锁的原理。

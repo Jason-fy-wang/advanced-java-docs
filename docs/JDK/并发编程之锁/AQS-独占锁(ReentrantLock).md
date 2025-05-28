@@ -1,3 +1,9 @@
+---
+tags:
+  - JDK
+  - ReentrantLock
+---
+
 # AQS之独占锁(ReentrantLock)
 
 java中synchronized关键字和1.5并发包之后的lock锁，都是并发下常用到同步机制。synchronized关键字属于jvm层的锁，需要查看jvm源码。不过今天来分析一下java层实现的锁机制。
@@ -128,7 +134,8 @@ ReenTrantLock内部有一个静态抽象类Sync，继承了AQS，实现了非公
            }
        }
    
-   
+   // 加入queue之后, 1. 如果是第一个节点再次获取锁
+   // 2. 如果不是,则把线程 暂停
    final boolean acquireQueued(final Node node, int arg) {
            boolean failed = true;
            try {
@@ -137,6 +144,7 @@ ReenTrantLock内部有一个静态抽象类Sync，继承了AQS，实现了非公
                    // 获取前一个节点
                    final Node p = node.predecessor();
                    // 如果前一个节点为head,并再次尝试获取锁
+                   // 前一个节点是head,则说明当前节点是第一个添加的node
                    if (p == head && tryAcquire(arg)) { // 如果是head节点并获取锁成功
                        // 设置node为当前节点
                        setHead(node);
@@ -209,8 +217,7 @@ ReenTrantLock内部有一个静态抽象类Sync，继承了AQS，实现了非公
                // pred不是head节点 && pred的状态为singal && pred的thread不为null
                if (pred != head &&
                    ((ws = pred.waitStatus) == Node.SIGNAL ||
-                    (ws <= 0 && compareAndSetWaitStatus(pred, ws, Node.SIGNAL))) &&
-                   pred.thread != null) {
+                    (ws <= 0 && compareAndSetWaitStatus(pred, ws, Node.SIGNAL))) && pred.thread != null) {
                    // 获取要取消的node的后一个节点
                    Node next = node.next;
                    if (next != null && next.waitStatus <= 0)
@@ -219,7 +226,7 @@ ReenTrantLock内部有一个静态抽象类Sync，继承了AQS，实现了非公
                        compareAndSetNext(pred, predNext, next);
                } else {
                    // 如果满足条件 ( pred是head节点 || pred的状态不为singal || pred的thread为null)
-                   // 则把node节点线程放行
+                   // 则把node节点的下一个节点对应线程放行
                    unparkSuccessor(node);
                }
                // node不可达, 就会被回收

@@ -1,3 +1,10 @@
+---
+tags:
+  - JDK
+  - AQS
+  - condition
+  - ReentrantLock
+---
 # ReentrantLock中Condition使用
 
 ReentrantLock中Condition中具体实现方法都在AQS实现了，故在ReentrantLock中只是使用。

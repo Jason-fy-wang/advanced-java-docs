@@ -3,7 +3,7 @@
 此类功能主要是负责内存的一个状态,当然它还和java虚拟机,垃圾回收器打交道. Reference把内存分为4中状态:Active, Pending, Enqueued, Inactive.
 
 * Active,一般来说内存一开始被分配的状态都是active
-* Pending, 大概是指快要被放进对象的对象, 也即是马上要被回收的对象
+* Pending, 大概是指快要被放进pendingList的对象, 也即是马上要被回收的对象
 * Enqueued 就是对象的内存已经被回收, 已经把这个对象放入到一个队列中, 方便以后我们查询某大对象是否被回收
 * Inactive就是最终的状态, 不能再变为其他状态.
 
@@ -29,7 +29,7 @@ System.out.println(ref);
 可以用来检测内存泄漏.
 
 * 监听bean的生命周期.
-* 在onDestory()的时候, 创建相应的Reference和ReferenceQueue, 并启动后天进程去检测
+* 在onDestory()的时候, 创建相应的Reference和ReferenceQueue, 并启动后台进程去检测
 * 一段时间后,从ReferenceQueue中读取, 若读取不到相应的bean的Reference, 有可能发生内存泄漏了， 这个时候，再促发一次GC，一段时间后，再次读取，若再ReferenceQueue中还是读取不到相应bean的Refernece，可以断定是内存泄漏了。
 * 发生内存泄漏后，dump，分析hprof文件，找到泄漏路径。
 
