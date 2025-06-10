@@ -13,7 +13,35 @@ tags:
 
 > 问题是: 单机的key操作达到10w+, 那么当流量达到20w+ 或更高时, 此类型的hotkey要如何优化?
 
+1) 通过useId 来让key 分布在不同的 slot
 如果此key保存的是商品数量，那么针对此类型，可以把商品数量分开存储到集群中各个节点上，当用户过来时，通过 hash(userID) % number(nodes) 来获取来操作的node， 以此来提高整个集群的处理能力。
+
+
+2) 通过hash 标签 {} 控制slot 分布
+Redis cluster中对key中{} 内部的  字符串计算slot， 称为 hash tag
+```shell
+SET user:{1001}:profile  "xxxx"
+SET user:{1002}:profile  "yyyy"
+
+## 查看key的 slot
+redis-cli -c cluster keyslot yourkey
+
+## slot 分布情况
+redis-cli -c cluster nodes
+
+
+## 如何发现hot key？
+redis-cli monitor  (生成慎用!!!)
+redis-cli --latency
+relic-cli --stat
+
+## 内部统计
+redis-cli --bigkeys
+redis-cli --scan
+redis-cli info keyspace
+
+```
+
 
 
 
