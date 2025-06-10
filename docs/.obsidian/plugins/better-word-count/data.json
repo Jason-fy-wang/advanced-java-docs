@@ -2,18 +2,18 @@
   "statusBar": [
     {
       "prefix": "",
-      "suffix": " words",
+      "suffix": " words Today",
       "metric": {
-        "type": 0,
+        "type": 1,
         "counter": 0
       }
     },
     {
       "prefix": " ",
-      "suffix": " characters",
+      "suffix": " characters ALL",
       "metric": {
-        "type": 0,
-        "counter": 1
+        "type": 2,
+        "counter": 0
       }
     }
   ],
