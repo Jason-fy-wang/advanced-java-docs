@@ -201,7 +201,7 @@ ReenTrantLock内部有一个静态抽象类Sync，继承了AQS，实现了非公
            while (pred.waitStatus > 0)
                node.prev = pred = pred.prev;
    
-        	// 此时这里的predNext就是node节点
+        	// pred 的 next节点, 此next节点状态 cancelled.需要被替换
            Node predNext = pred.next;
    		// 把node节点状态设置为1取消状态
            node.waitStatus = Node.CANCELLED;
@@ -680,7 +680,7 @@ public final boolean release(int arg) {
     }
 
 private void unparkSuccessor(Node node) {
-    	// 获取头节点
+    	// 获取节点 status
         int ws = node.waitStatus;
         if (ws < 0)
             // 头节点状态小于0， 则设置头节点状态为0

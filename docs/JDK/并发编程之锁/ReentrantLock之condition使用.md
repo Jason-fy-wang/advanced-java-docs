@@ -205,7 +205,7 @@ public final void await() throws InterruptedException {
             Thread.yield();
         return false;
     }
-	// 死循环获取锁，并返回是否中断标志
+	// 被唤醒后: 死循环获取锁，并返回是否中断标志
     final boolean acquireQueued(final Node node, int arg) {
         boolean failed = true;
         try {
