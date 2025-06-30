@@ -4,7 +4,9 @@ tags:
   - ssl-verify
   - certificate
 ---
-openssl 在不同情况下对certificate的verify: 
+场景:  客户证书到期, 替换新certificate
+描述:  同外部客户通信时, 需要使用 tls/ssl 加密, 当客户的证书要到期时, 对方会提供新的证书.  我们会把新certificate放入到 truststore.pem中, 因为不确定对方什么时候使用新的certificate, 就会有一个`新旧证书共存的阶段`. 在此共存阶段, 经常会出现证书握手失败.  
+那么针对 新旧certificate共存的情况下, openssl的校验结果是怎么的呢? 如下测试:
 
 > case 1: 
 > 1. same Subject
