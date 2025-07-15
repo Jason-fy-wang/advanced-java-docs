@@ -35,7 +35,7 @@ sudo kubeadm init
 ```
 
 
-
+[[2-install-k8s]]
 
 
 
