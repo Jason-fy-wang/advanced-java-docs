@@ -319,6 +319,10 @@ ldappasswd -x -H ldapi:/// -D "cn=mike,dc=example,dc=com" -w 123456 -s acdefg
 #### 查询objectClass的属性
 ```shell
 ldapsearch -x -D "cn=admin,cn=config" -H ldapi:/// -W -b "cn=schema,cn=config" "cn={3}inetorgperson"
+
+
+# search all objectClass schema
+ldapsearch -D "cn=admin,dc=example,dc=com" -W -H ldap:/// -s base -b "cn=subschema" "(objectClass=subschema)"  objectClasses
 ```
 
 
