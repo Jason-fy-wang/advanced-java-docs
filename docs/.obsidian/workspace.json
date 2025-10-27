@@ -24,33 +24,45 @@
             }
           },
           {
-            "id": "8141be8004a4c1f8",
+            "id": "fc1fae00afa1d4d9",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/openLDAP/1-base-operation.md",
+                "file": "rust/1-how-to-create-rust-project.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "1-base-operation"
+              "title": "1-how-to-create-rust-project"
             }
           },
           {
-            "id": "d1b2abbf47bfa5d9",
+            "id": "22a1a93da374f29c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/openLDAP/5-objectClass-type.md",
+                "file": "rust/4-import-export-module.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5-objectClass-type"
+              "title": "4-import-export-module"
+            }
+          },
+          {
+            "id": "1239f2b8c55776cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rust/3-set-registry-for-cargo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3-set-registry-for-cargo"
             }
           }
         ],
@@ -219,6 +231,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -234,54 +247,54 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d1b2abbf47bfa5d9",
+  "active": "22a1a93da374f29c",
   "lastOpenFiles": [
-    "linux/openLDAP/3-centos7-support-LDAP.md",
+    "rust/images/4-export.png",
+    "rust/images/3-import.png",
+    "rust/2-how-to-create-rust-unit-test.md",
+    "rust/images/1-bench.png",
+    "rust/images/0-tests.png",
+    "rust/images",
+    "rust/新建文件夹",
+    "rust/4-import-export-module.md",
+    "rust/0-rust-index.md",
+    "rust/1-how-to-create-rust-project.md",
+    "rust/3-set-registry-for-cargo.md",
+    "HomePage.md",
+    "question/self recommendation letter.md",
+    "question/letter-short.md",
+    "question/self recommendation letter-v2.md",
+    "question/岗位锁定信息.md",
+    "question/template.md",
+    "linux/bison/0-bison-index.md",
+    "question/英文介绍.md",
+    "linux/flex/1-flex-keyword-function.md",
+    "linux/bison/1-bsion-keyword.md",
+    "linux/flex/0-flex-index.md",
+    "linux/bison",
+    "linux/flex",
+    "frontend/react/8-how-to-pass-variable-when-route.md",
+    "frontend/react/7-difference-between-element-component-in-route.md",
+    "frontend/react/6-react-unittest.md",
     "linux/openLDAP/5-objectClass-type.md",
-    "linux/openLDAP/2-LDAP-term.md",
-    "linux/openLDAP/4-openldap-struct.md",
     "linux/openLDAP/images/ldap_struct.md",
     "linux/openLDAP/1-base-operation.md",
-    "HomePage.md",
-    "Java/zero-gc/2-collection.md",
-    "Java/zero-gc/1-java-zero-gc的注意点.md",
-    "Java/zero-gc/3-不可避免的garbage.md",
-    "Java/zero-gc/images/API.excalidraw.md",
-    "Java/zero-gc/4-log-style.md",
-    "Java/zero-gc/images/services.excalidraw.md",
-    "Java/zero-gc/images/Untitled.md",
-    "Java/zero-gc/images/api.md",
+    "linux/openLDAP/3-centos7-support-LDAP.md",
+    "linux/openLDAP/2-LDAP-term.md",
+    "linux/openLDAP/4-openldap-struct.md",
     "Java/zero-gc/images",
     "xmind/deep_neural_network.xmind",
     "xmind/deep_netural_network.xmind",
-    "linux/ubuntu/2-install-k8s.md",
-    "devOps/kubenates/1-k8s-install-ubuntu.md",
-    "devOps/kubenates/3-k8s-error.md",
-    "linux/kvm/14-new-vm-clone.md",
-    "linux/lvm/1-extends-vm-storage.md",
-    "devOps/kubenates/2-为什么crictl看不到ctr导入的镜像.md",
-    "linux/kvm/6-kvm-storage-pool.md",
-    "linux/ubuntu/1-install-kvm.md",
-    "linux/kvm/4-kvm-inspect.md",
-    "linux/kvm/2-kvm-instance.md",
-    "linux/kvm/3-kvm-snapshot.md",
     "linux/ubuntu",
     "question/java/thread",
     "question/java/JVM",
     "question/java/images/cacheLine_padding.png",
-    "question/java/images",
-    "question/java/collection",
-    "question/leecode",
-    "question/kafka",
     "question/java/JDK/images/cacheLine_padding.png",
     "question/面试/java/JDK/images/cacheLine_padding.png",
     "threadLocal-leak.png",
     "https/SSL/images/14-server-certificate.png",
     "https/SSL/images/15-policy-mach.png",
     "https/SSL/images/13-gen-server-key.png",
-    "https/SSL/images/12-openssl-config.png",
-    "https/SSL/images/ca-true.png",
-    "https/SSL/images/tls_client_cert.png",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",
     "review_and_plan/netty_learn.canvas",
