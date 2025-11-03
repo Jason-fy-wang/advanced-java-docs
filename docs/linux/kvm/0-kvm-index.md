@@ -14,7 +14,13 @@ tags:
 [[8-kvm-secrets]]
 [[9-kvm-network]]
 [[10-kvm-linux-optimize]]
-
+[[11-kvm-nodeinfo]]
+[[12-kvm-console-login]]
+[[13-share-directory-between-host-and-kvm]]
+[[14-new-vm-clone]]
+[[15-kvm-iptables]]
+[[16-kvm-disk-increment]]
+[[17-kvm-kickstart]]
 
 
 
