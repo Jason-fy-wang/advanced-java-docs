@@ -115,7 +115,4 @@ RUN --mount=type=ssh \
 ```
 
 
-```
-
-
 [docker run command](https://docs.docker.com/reference/dockerfile/#run---mount)
