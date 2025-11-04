@@ -10,6 +10,7 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,12 +18,13 @@
                 "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "HomePage"
             }
           },
           {
-            "id": "51e8a097fb9d0da6",
+            "id": "2ba9c54a8c5a3f7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -93,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 427.5
+    "width": 427.5,
+    "collapsed": true
   },
   "right": {
     "id": "e87587850ad9e032",
@@ -217,11 +220,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "51e8a097fb9d0da6",
+  "active": "2ba9c54a8c5a3f7d",
   "lastOpenFiles": [
-    "linux/kvm/0-kvm-index.md",
+    "devOps/docker/docker.canvas",
     "HomePage.md",
     "devOps/docker/9-set-credentials-safely.md",
+    "linux/kvm/0-kvm-index.md",
     "linux/kvm/17-kvm-kickstart.md",
     "question/project-description_en.md",
     "question/images/layer.md",
@@ -257,7 +261,6 @@
     "linux/flex/0-flex-index.md",
     "linux/bison",
     "linux/flex",
-    "frontend/react/8-how-to-pass-variable-when-route.md",
     "Java/zero-gc/images",
     "xmind/deep_neural_network.xmind",
     "xmind/deep_netural_network.xmind",

@@ -80,17 +80,31 @@ uid: User ID for secret file. default 0.
 gid: Group ID for secret file. default 0.
 
 
-RUN --mount=type=secret,id=aws,target=/root/.aws/credentials \
+# example
+RUN --mount=type=secret,id=aws,target=/root/.aws/credentials,required \
 	aws s3 cp s3://... ...
 
+docker buildx build --secret id=aws,src=$HOME/.aws/credentials .
 
-docker buildx build --secret id=aws,sec=$HOME/.aws/credentials .
+# example set pip.conf and apt auth.conf
+RUN --mount=type=secret,id=auth,target=/etc/apt/auth.conf,required \
+	apt-get update \
+	&& apt install -y python3.12
 
+RUN --mount=type=secret,id=pip,target=/etc/pip.conf,required \
+	/opt/venv/bin/pip install --upgrade pip
+
+### set secret from build parameter
+docker build --secret type=file,id=auth,src=./auth.conf  --secret type=file,id=pip,src=./pip.conf
+
+
+# example of using a secret as an environment variable.
 RUN --mount=type=secret,id=API_KEY,env=API_KEY  \
 	command --token-from-env $API_KEY
 	
 set API_KEY in build:
-docker buildx build --secret id=API_KEY
+export API_KEY="my-secret-key"
+docker buildx build --secret id=API_KEY,env=API_KEY
 ```
 
 ```shell
