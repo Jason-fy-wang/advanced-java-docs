@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "2ba9c54a8c5a3f7d",
+            "id": "23d57212c4641bd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devOps/docker/9-set-credentials-safely.md",
+                "file": "git/7-git-log-with-2dot-and-3dot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9-set-credentials-safely"
+              "title": "7-git-log-with-2dot-and-3dot"
             }
           }
         ],
@@ -95,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 427.5,
-    "collapsed": true
+    "width": 427.5
   },
   "right": {
     "id": "e87587850ad9e032",
@@ -220,11 +219,26 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2ba9c54a8c5a3f7d",
+  "active": "23d57212c4641bd5",
   "lastOpenFiles": [
-    "devOps/docker/docker.canvas",
+    "git/images/git-log/git_log_111_1.png",
+    "git/images/git-log/git_log_111.png",
+    "git/images/git-log/git_log_11.png",
+    "git/images/git-log/git_log_1.png",
+    "git/images/git-log/fix4_log.png",
+    "git/images/git-log/fix3_log.png",
+    "git/images/git-log/fix2_log.png",
+    "git/images/git-log/master_log.png",
+    "git/images/git-log",
+    "git/5-git-rebase-clean-up-history.md",
+    "git/7-git-log-with-2dot-and-3dot.md",
+    "git/6-sort-tag.md",
+    "git/4-Bitbucket.md",
+    "git/3-git-save-symbolic-file.md",
+    "git/2-git-merge-VS-git-rebase.md",
     "HomePage.md",
     "devOps/docker/9-set-credentials-safely.md",
+    "devOps/docker/docker.canvas",
     "linux/kvm/0-kvm-index.md",
     "linux/kvm/17-kvm-kickstart.md",
     "question/project-description_en.md",
@@ -235,15 +249,10 @@
     "question/images/architecture.md",
     "question/images/architecture.png",
     "question/images/whole-picture.md",
-    "question/images/whole.png",
     "question/project-description.md",
     "question/images",
     "rust/4-import-export-module.md",
     "rust/2-how-to-create-rust-unit-test.md",
-    "rust/images/4-export.png",
-    "rust/images/3-import.png",
-    "rust/images/1-bench.png",
-    "rust/images/0-tests.png",
     "rust/images",
     "rust/新建文件夹",
     "rust/0-rust-index.md",
@@ -253,21 +262,12 @@
     "question/letter-short.md",
     "question/self recommendation letter-v2.md",
     "question/岗位锁定信息.md",
-    "question/template.md",
-    "linux/bison/0-bison-index.md",
-    "question/英文介绍.md",
-    "linux/flex/1-flex-keyword-function.md",
-    "linux/bison/1-bsion-keyword.md",
-    "linux/flex/0-flex-index.md",
     "linux/bison",
     "linux/flex",
     "Java/zero-gc/images",
     "xmind/deep_neural_network.xmind",
     "xmind/deep_netural_network.xmind",
     "linux/ubuntu",
-    "question/java/thread",
-    "question/java/images/cacheLine_padding.png",
-    "question/java/JDK/images/cacheLine_padding.png",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",
     "review_and_plan/netty_learn.canvas",
@@ -276,7 +276,6 @@
     "review_and_plan/daily-work.canvas",
     "review_and_plan/CFA-plan.canvas",
     "linux/lvm/lvm_command.canvas",
-    "review_and_plan/sqlite-db.canvas",
-    "review_and_plan/work_technology.canvas"
+    "review_and_plan/sqlite-db.canvas"
   ]
 }

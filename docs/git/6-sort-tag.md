@@ -37,7 +37,6 @@ git tag --sort=-taggerdate
 git for-each-ref --sort=creatordate --format '%(refname:short) %(creatordate)' refs/tags
 
 
-
 ```
 
 
