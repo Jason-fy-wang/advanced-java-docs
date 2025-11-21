@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "c1cbfec8e543d936",
+            "id": "66d9e1c199b36b5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/9-shorten-release-history.md",
+                "file": "git/11-git-squash-feature-branch-into-one-commit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9-shorten-release-history"
+              "title": "11-git-squash-feature-branch-into-one-commit"
             }
           }
         ],
@@ -219,10 +219,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c1cbfec8e543d936",
+  "active": "66d9e1c199b36b5d",
   "lastOpenFiles": [
-    "git/8-set-commit-date.md",
+    "git/9-shorten-release-history.md",
+    "git/11-git-squash-feature-branch-into-one-commit.md",
+    "git/12-cleanup-unused-tag.md",
+    "git/10-how-to-resolve-conflict-automate.md",
     "HomePage.md",
+    "linux/systemd/1-set-systemd-editor.md",
+    "linux/systemd/0-systemd-index.md",
+    "linux/systemd",
+    "git/8-set-commit-date.md",
     "git/images/cdate/rebase1.png",
     "git/images/cdate/rebase.png",
     "git/images/cdate/edit1.png",
@@ -230,7 +237,6 @@
     "git/images/cdate/log.png",
     "git/images/cdate",
     "git/images/新建文件夹",
-    "git/9-shorten-release-history.md",
     "git/7-git-log-with-2dot-and-3dot.md",
     "git/images/git-log/git_log_111_1.png",
     "git/images/git-log/git_log_111.png",
@@ -259,14 +265,9 @@
     "rust/images",
     "rust/新建文件夹",
     "rust/0-rust-index.md",
-    "rust/1-how-to-create-rust-project.md",
-    "rust/3-set-registry-for-cargo.md",
-    "question/self recommendation letter.md",
-    "question/letter-short.md",
     "linux/bison",
     "linux/flex",
     "Java/zero-gc/images",
-    "xmind/deep_neural_network.xmind",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",
     "review_and_plan/netty_learn.canvas",

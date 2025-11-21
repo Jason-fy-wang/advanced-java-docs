@@ -9,7 +9,7 @@ Yes, we have to shorten the commit history.
 
 There are two day to achieve this.
 
-### merge commit history through rebase
+### 1. merge commit history through rebase
 
 This method is simple, before we merge to master branch, we can leverage `git rebase` to merge the commit history.  Then `git push origin HEAD --force` to refresh the feature commit history.
 
@@ -17,8 +17,12 @@ This method is simple, before we merge to master branch, we can leverage `git re
 
 
 
-### re-create feature branch
+### 2. re-create feature branch
 
 This one is more easier,  delete the feature branch (remote and local) and  push  the change to feature branch again.
 
 
+
+### 3. squash the history every time
+
+[[11-git-squash-feature-branch-into-one-commit]]
