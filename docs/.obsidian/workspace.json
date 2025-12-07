@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
+                "file": "windows/powershell/1-PowerShell-get-help.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-git-squash-feature-branch-into-one-commit"
+              "title": "1-PowerShell-get-help"
             }
           }
         ],
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "github",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -221,6 +221,12 @@
   },
   "active": "9d7d1d280fdf2b0a",
   "lastOpenFiles": [
+    "windows/powershell/0-PowerShell-index.md",
+    "windows/powershell/1-PowerShell-get-help.md",
+    "windows/0-windwos-index.md",
+    "windows/2-create-symbolic.md",
+    "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
+    "xmind/kali_toolset.xmind",
     "devOps/git/12-cleanup-unused-tag.md",
     "linux/shell/5-shell-set.md",
     "frontend/react/9-micro-frontend.md",
@@ -249,7 +255,6 @@
     "devOps/git/4-Bitbucket.md",
     "devOps/git/3-git-save-symbolic-file.md",
     "devOps/git/0-git-index.md",
-    "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
     "devOps/git/1-如何检查git中的文件类型.md",
     "devOps/git/10-how-to-resolve-conflict-automate.md",
     "devOps/git",
@@ -260,13 +265,8 @@
     "git/11-git-squash-feature-branch-into-one-commit.md",
     "devOps/github",
     "git/9-shorten-release-history.md",
-    "git/12-cleanup-unused-tag.md",
-    "git/10-how-to-resolve-conflict-automate.md",
-    "linux/systemd/1-set-systemd-editor.md",
-    "linux/systemd/0-systemd-index.md",
     "linux/systemd",
     "git/images/cdate",
-    "git/images/新建文件夹",
     "devOps/docker/docker.canvas",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",
