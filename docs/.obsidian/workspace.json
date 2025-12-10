@@ -24,21 +24,33 @@
             }
           },
           {
-            "id": "9d7d1d280fdf2b0a",
+            "id": "8dcf1186727af815",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "windows/powershell/1-PowerShell-get-help.md",
+                "file": "devOps/SRE/grafana/1-grafana-loki.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-PowerShell-get-help"
+              "title": "1-grafana-loki"
+            }
+          },
+          {
+            "id": "ce68a48066decb5e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "devOps/SRE/grafana/grafana-loki-arch.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "grafana-loki-arch"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,10 +231,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9d7d1d280fdf2b0a",
+  "active": "5776e522bce60b68",
   "lastOpenFiles": [
-    "windows/powershell/0-PowerShell-index.md",
+    "devOps/SRE/grafana/1-grafana-loki.md",
+    "devOps/SRE/grafana/grafana-loki-arch.md",
+    "devOps/SRE/grafana/0-grafna-index.md",
+    "HomePage.md",
+    "devOps/SRE/grafana",
+    "devOps/SRE",
     "windows/powershell/1-PowerShell-get-help.md",
+    "xmind/PowerShell.xmind",
+    "windows/powershell/0-PowerShell-index.md",
     "windows/0-windwos-index.md",
     "windows/2-create-symbolic.md",
     "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
@@ -259,14 +278,7 @@
     "devOps/git/10-how-to-resolve-conflict-automate.md",
     "devOps/git",
     "devOps/github/2-github-workspace.md",
-    "HomePage.md",
     "devOps/github/1-github-action.md",
-    "devOps/github/0-github-index.md",
-    "git/11-git-squash-feature-branch-into-one-commit.md",
-    "devOps/github",
-    "git/9-shorten-release-history.md",
-    "linux/systemd",
-    "git/images/cdate",
     "devOps/docker/docker.canvas",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",

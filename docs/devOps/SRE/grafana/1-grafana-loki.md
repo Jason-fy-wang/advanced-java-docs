@@ -1,0 +1,5 @@
+---
+tags:
+  - grafana
+  - loki
+---
