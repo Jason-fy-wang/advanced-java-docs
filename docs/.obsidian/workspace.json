@@ -24,33 +24,21 @@
             }
           },
           {
-            "id": "8dcf1186727af815",
+            "id": "36b5b1ec03777bb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devOps/SRE/grafana/1-grafana-loki.md",
+                "file": "linux/shell/6-group-command-execute.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-grafana-loki"
-            }
-          },
-          {
-            "id": "ce68a48066decb5e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "devOps/SRE/grafana/grafana-loki-arch.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "grafana-loki-arch"
+              "title": "6-group-command-execute"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,12 +219,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5776e522bce60b68",
+  "active": "36b5b1ec03777bb9",
   "lastOpenFiles": [
-    "devOps/SRE/grafana/1-grafana-loki.md",
-    "devOps/SRE/grafana/grafana-loki-arch.md",
-    "devOps/SRE/grafana/0-grafna-index.md",
+    "linux/shell/4-curl.md",
+    "linux/shell/5-shell-set.md",
+    "linux/shell/6-group-command-execute.md",
+    "linux/shell/images/group_cmd2.png",
+    "linux/shell/images/group_cmd1.png",
     "HomePage.md",
+    "GEMINI.md",
+    "devOps/SRE/grafana/grafana-loki-arch.md",
+    "devOps/SRE/grafana/1-grafana-loki.md",
+    "devOps/SRE/grafana/0-grafna-index.md",
     "devOps/SRE/grafana",
     "devOps/SRE",
     "windows/powershell/1-PowerShell-get-help.md",
@@ -247,7 +241,6 @@
     "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
     "xmind/kali_toolset.xmind",
     "devOps/git/12-cleanup-unused-tag.md",
-    "linux/shell/5-shell-set.md",
     "frontend/react/9-micro-frontend.md",
     "devOps/git/images/rebase/squash3.png",
     "devOps/git/images/rebase/squash4.png",
@@ -257,8 +250,6 @@
     "devOps/git/images/rebase/split6.png",
     "devOps/git/images/rebase/split4.png",
     "devOps/git/images/rebase/split3.png",
-    "devOps/git/images/rebase/split1.png",
-    "devOps/git/images/rebase/log3.png",
     "devOps/git/images/rebase",
     "devOps/git/images/git-log",
     "devOps/git/images/3-git-save-symbolic-line-file.md",
@@ -274,11 +265,7 @@
     "devOps/git/4-Bitbucket.md",
     "devOps/git/3-git-save-symbolic-file.md",
     "devOps/git/0-git-index.md",
-    "devOps/git/1-如何检查git中的文件类型.md",
-    "devOps/git/10-how-to-resolve-conflict-automate.md",
     "devOps/git",
-    "devOps/github/2-github-workspace.md",
-    "devOps/github/1-github-action.md",
     "devOps/docker/docker.canvas",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",
