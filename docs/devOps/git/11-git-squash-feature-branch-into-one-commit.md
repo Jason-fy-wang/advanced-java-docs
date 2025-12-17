@@ -27,7 +27,7 @@ git push origin feature_branch --force
 ```
 
 Of course, we can squash the commit history with above script.  But there some exception or limitation need to clarity: 
-`Limitation:`
+`Limitation 1:`
 >  situation 1: 
 >  Phase 1: the feature branch merged to master branch
 >  Phase 2: we need update same line of the file, and run the above script again. 
@@ -50,6 +50,50 @@ else
 	git push origin feature_branch
 fi
 ```
+
+
+`Limitation 2:`
+> 1. we create feature branch-a and update our code
+> 2. others create feature branch-b and update code , finally merge to master before branch-a
+> 3. if we still use `git reset --soft` to rewirte the history, our Pull request will contain branch-b change as well.
+> 
+> So  what we can do to include our change only? 
+
+
+here what we do:
+
+```shell
+Soluation 1:
+# sync from master
+git pull origin master
+# reset to original branch
+git reset --soft $(git log feature_branch master)
+# reset local stach space
+git reset .
+# add what we changed only, f.g. we changed fileA and fileB
+git add *fileA *fileB
+# reset other changes, include our change only
+git checkout .
+git commit -m"feature branch change summary"
+git push origin feature_branch --force
+```
+
+
+```shell
+Solution 2:
+
+# create new branch
+git checkout master
+git checkout -c branch_squash
+
+git merge --squash branch_a
+
+git commit -m"change all"
+git push origin branch_squash
+
+# then create pull request for branch_squash.
+```
+
 
 
 

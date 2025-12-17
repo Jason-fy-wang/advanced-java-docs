@@ -24,21 +24,35 @@
             }
           },
           {
-            "id": "36b5b1ec03777bb9",
+            "id": "d3024eadc1367029",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/shell/6-group-command-execute.md",
+                "file": "IDE/vmware/3-vmware-bridge-network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6-group-command-execute"
+              "title": "3-vmware-bridge-network"
+            }
+          },
+          {
+            "id": "3d7eb6efd8c304e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "windows/3-v2RayN-TUN-mode.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3-v2RayN-TUN-mode"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vmware",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,14 +233,32 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "36b5b1ec03777bb9",
+  "active": "3d7eb6efd8c304e2",
   "lastOpenFiles": [
+    "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
+    "devOps/gemini/1-setup-config-for-gemini.md",
+    "IDE/vmware/3-vmware-bridge-network.md",
+    "IDE/vmware/images/net/adpter_default.png",
+    "IDE/vmware/images/net/adapter.png",
+    "IDE/vmware/images/net/config.png",
+    "IDE/vmware/images/net/card_config.png",
+    "windows/3-v2RayN-TUN-mode.md",
+    "windows/images/v2ray/v2ray.png",
+    "windows/images/v2ray/TUN.png",
+    "windows/images/v2ray",
+    "windows/images/新建文件夹",
+    "devOps/gemini/0-gemini-index.md",
+    "devOps/gemini",
+    "devOps/git/9-shorten-release-history.md",
+    "IDE/vmware/2-vmware-nat.md",
+    "IDE/vmware/0-vmware-index.md",
+    "HomePage.md",
+    "linux/qemu-install.md",
+    "linux/shell/6-group-command-execute.md",
     "linux/shell/4-curl.md",
     "linux/shell/5-shell-set.md",
-    "linux/shell/6-group-command-execute.md",
     "linux/shell/images/group_cmd2.png",
     "linux/shell/images/group_cmd1.png",
-    "HomePage.md",
     "GEMINI.md",
     "devOps/SRE/grafana/grafana-loki-arch.md",
     "devOps/SRE/grafana/1-grafana-loki.md",
@@ -238,34 +270,16 @@
     "windows/powershell/0-PowerShell-index.md",
     "windows/0-windwos-index.md",
     "windows/2-create-symbolic.md",
-    "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
     "xmind/kali_toolset.xmind",
     "devOps/git/12-cleanup-unused-tag.md",
     "frontend/react/9-micro-frontend.md",
     "devOps/git/images/rebase/squash3.png",
     "devOps/git/images/rebase/squash4.png",
-    "devOps/git/images/rebase/squash2.png",
-    "devOps/git/images/rebase/split5.png",
-    "devOps/git/images/rebase/squash1.png",
-    "devOps/git/images/rebase/split6.png",
-    "devOps/git/images/rebase/split4.png",
-    "devOps/git/images/rebase/split3.png",
     "devOps/git/images/rebase",
     "devOps/git/images/git-log",
     "devOps/git/images/3-git-save-symbolic-line-file.md",
     "devOps/git/images/cdate",
-    "devOps/git/images",
-    "devOps/git/git.xmind",
     "devOps/git/7-git-log-with-2dot-and-3dot.md",
-    "devOps/git/9-shorten-release-history.md",
-    "devOps/git/8-set-commit-date.md",
-    "devOps/git/5-git-rebase-clean-up-history.md",
-    "devOps/git/6-sort-tag.md",
-    "devOps/git/2-git-merge-VS-git-rebase.md",
-    "devOps/git/4-Bitbucket.md",
-    "devOps/git/3-git-save-symbolic-file.md",
-    "devOps/git/0-git-index.md",
-    "devOps/git",
     "devOps/docker/docker.canvas",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",
