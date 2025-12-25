@@ -22,37 +22,8 @@
               "icon": "lucide-file",
               "title": "HomePage"
             }
-          },
-          {
-            "id": "d3024eadc1367029",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IDE/vmware/3-vmware-bridge-network.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-vmware-bridge-network"
-            }
-          },
-          {
-            "id": "3d7eb6efd8c304e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "windows/3-v2RayN-TUN-mode.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3-v2RayN-TUN-mode"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,16 +204,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3d7eb6efd8c304e2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
     "devOps/gemini/1-setup-config-for-gemini.md",
+    "HomePage.md",
+    "windows/3-v2RayN-TUN-mode.md",
+    "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
     "IDE/vmware/3-vmware-bridge-network.md",
     "IDE/vmware/images/net/adpter_default.png",
     "IDE/vmware/images/net/adapter.png",
     "IDE/vmware/images/net/config.png",
     "IDE/vmware/images/net/card_config.png",
-    "windows/3-v2RayN-TUN-mode.md",
     "windows/images/v2ray/v2ray.png",
     "windows/images/v2ray/TUN.png",
     "windows/images/v2ray",
@@ -252,7 +224,6 @@
     "devOps/git/9-shorten-release-history.md",
     "IDE/vmware/2-vmware-nat.md",
     "IDE/vmware/0-vmware-index.md",
-    "HomePage.md",
     "linux/qemu-install.md",
     "linux/shell/6-group-command-execute.md",
     "linux/shell/4-curl.md",
