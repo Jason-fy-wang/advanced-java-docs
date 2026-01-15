@@ -16,5 +16,6 @@
   "templater-obsidian",
   "table-editor-obsidian",
   "dataview",
-  "floating-toc"
+  "floating-toc",
+  "terminal"
 ]

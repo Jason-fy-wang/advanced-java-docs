@@ -1,0 +1,116 @@
+{
+  "addToCommand": true,
+  "addToContextMenu": true,
+  "createInstanceNearExistingOnes": true,
+  "errorNoticeTimeout": 0,
+  "exposeInternalModules": true,
+  "focusOnNewInstance": true,
+  "hideStatusBar": "focused",
+  "interceptLogging": true,
+  "language": "",
+  "newInstanceBehavior": "newHorizontalSplit",
+  "noticeTimeout": 5,
+  "openChangelogOnUpdate": true,
+  "pinNewInstance": true,
+  "preferredRenderer": "webgl",
+  "profiles": {
+    "555f9592-aab6-474c-a7f8-8e0a9005f284": {
+      "args": [],
+      "executable": "powershell",
+      "name": "powershell",
+      "platforms": {
+        "win32": true
+      },
+      "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
+      "restoreHistory": false,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
+    "18fd5718-d3c0-4045-b90a-47ef4eb7cba8": {
+      "args": [],
+      "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
+      "name": "git-bash",
+      "platforms": {
+        "darwin": false,
+        "linux": false,
+        "win32": true
+      },
+      "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
+      "restoreHistory": false,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
+    "developerConsole": {
+      "name": "",
+      "restoreHistory": false,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "developerConsole"
+    },
+    "win32ExternalDefault": {
+      "args": [],
+      "executable": "C:\\Windows\\System32\\cmd.exe",
+      "name": "",
+      "platforms": {
+        "win32": true
+      },
+      "restoreHistory": false,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "external"
+    },
+    "win32IntegratedDefault": {
+      "args": [],
+      "executable": "C:\\Windows\\System32\\cmd.exe",
+      "name": "",
+      "platforms": {
+        "win32": true
+      },
+      "pythonExecutable": "python3",
+      "restoreHistory": false,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "integrated",
+      "useWin32Conhost": true
+    }
+  }
+}
