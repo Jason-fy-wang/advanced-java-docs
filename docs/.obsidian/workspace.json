@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4470b85676c81a08",
+        "id": "53a33335f0a87c0e",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 37.357142857142854,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -29,44 +28,41 @@
                 }
               },
               {
-                "id": "4c44021c4affbbe4",
+                "id": "41dec685143354db",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "LLM/skils/1-what's-different-with-skills-and-mcp.md",
-                    "mode": "preview",
+                    "file": "linux/shell/7-Array.md",
+                    "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "1-what's-different-with-skills-and-mcp"
+                  "title": "7-Array"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "ae1e9c1ca30a16e8",
+            "id": "d4dd5360b5b3cd9f",
             "type": "tabs",
-            "dimension": 62.642857142857146,
             "children": [
               {
-                "id": "285f42a7bc61664a",
+                "id": "c6a8bfb948162fe1",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs",
+                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs\\linux\\shell",
                       "focus": false,
                       "profile": {
                         "args": [],
-                        "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
-                        "name": "git-bash",
+                        "executable": "powershell",
+                        "name": "powershell",
                         "platforms": {
-                          "darwin": false,
-                          "linux": false,
                           "win32": true
                         },
                         "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
@@ -88,7 +84,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: MINGW64:/d/project/project-doc/advanced-java-docs/docs"
+                  "title": "Terminal: powershell"
                 }
               }
             ]
@@ -259,13 +255,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "homepage:Open homepage": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
@@ -276,14 +272,18 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "285f42a7bc61664a",
+  "active": "c6a8bfb948162fe1",
   "lastOpenFiles": [
+    "linux/shell/7-Array.md",
+    "linux/shell/images/shell/array_replace.png",
+    "linux/shell/images/shell",
+    "linux/shell/images/新建文件夹",
+    "HomePage.md",
+    "devOps/kubenates/6-debug-service.md",
+    "devOps/kubenates/5-ingress-400-status.md",
     "LLM/skils/1-what's-different-with-skills-and-mcp.md",
     "LLM/skils/0-skills-index.md",
     "python/uv/0-python-uv-index.md",
-    "HomePage.md",
-    "devOps/kubenates/5-ingress-400-status.md",
-    "devOps/kubenates/6-debug-service.md",
     "devOps/kubenates/4-create-serviceaccount-for-kubectl.md",
     "devOps/kubenates/3-k8s-error.md",
     "question/recommendation.md",
@@ -305,8 +305,6 @@
     "frontend/node/3-this-function-in-nodejs.md",
     "frontend/node/this_keyword/global.js",
     "frontend/node/this_keyword/global.js.md",
-    "frontend/node/this_keyword",
-    "package.json",
     "devOps/gemini/1-setup-config-for-gemini.md",
     "windows/3-v2RayN-TUN-mode.md",
     "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
@@ -318,12 +316,9 @@
     "windows/images/v2ray/v2ray.png",
     "windows/images/v2ray/TUN.png",
     "devOps/gemini/0-gemini-index.md",
-    "devOps/git/9-shorten-release-history.md",
-    "IDE/vmware/2-vmware-nat.md",
     "linux/shell/images/group_cmd2.png",
     "linux/shell/images/group_cmd1.png",
     "devOps/git/images/rebase/squash3.png",
-    "devOps/git/images/rebase/squash4.png",
     "devOps/docker/docker.canvas",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",
