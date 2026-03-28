@@ -1,0 +1,6 @@
+---
+tags:
+  - journal
+  - linux
+  - journalctl
+---
