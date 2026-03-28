@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "53a33335f0a87c0e",
+        "id": "857f68ade8b8c37f",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
+            "dimension": 41.68814432989691,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -28,39 +29,83 @@
                 }
               },
               {
-                "id": "41dec685143354db",
+                "id": "79b38e6b55597c08",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "linux/shell/7-Array.md",
+                    "file": "linux/DBus/1-busctl-daily-usage.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "7-Array"
+                  "title": "1-busctl-daily-usage"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "d4dd5360b5b3cd9f",
+            "id": "89439e7bf25b1888",
             "type": "tabs",
+            "dimension": 58.3118556701031,
             "children": [
               {
-                "id": "c6a8bfb948162fe1",
+                "id": "442c220f7338a610",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs\\linux\\shell",
+                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
+                        "followTheme": true,
+                        "name": "git-bash",
+                        "platforms": {
+                          "darwin": false,
+                          "linux": false,
+                          "win32": true
+                        },
+                        "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: ◇  Ready (docs)"
+                }
+              },
+              {
+                "id": "e473a2556ea77873",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs",
                       "focus": false,
                       "profile": {
                         "args": [],
                         "executable": "powershell",
+                        "followTheme": true,
                         "name": "powershell",
                         "platforms": {
                           "win32": true
@@ -84,10 +129,53 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: powershell"
+                  "title": "Terminal: ✳ Claude Code"
+                }
+              },
+              {
+                "id": "d1f1dc320c0a289b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
+                        "followTheme": true,
+                        "name": "git-bash",
+                        "platforms": {
+                          "darwin": false,
+                          "linux": false,
+                          "win32": true
+                        },
+                        "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: MINGW64:/d/project/project-doc/advanced-java-docs/docs"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -272,13 +360,35 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c6a8bfb948162fe1",
+  "active": "d1f1dc320c0a289b",
   "lastOpenFiles": [
+    "linux/DBus/1-busctl-daily-usage.md",
+    "frontend/node/devops/2-nodejs-remote-debug.md",
+    "frontend/node/devops/1-how-to-heapdump-process.md",
+    "frontend/node/express/1-express-register-function.md",
+    "frontend/node/syntax/3-this-function-in-nodejs.md",
+    "frontend/node/syntax/2-npm多registry管理.md",
+    "frontend/node/syntax/5-global-object-in-nodejs.md",
+    "frontend/node/syntax/4-best-deploy-practise-for-nodejs.md",
+    "linux/Journal/1-journalctl-daily-usage.md",
+    "linux/systemd/2-systemctl-usage.md",
+    "README.md",
+    "sets",
+    "HomePage.md",
+    "frontend/node/devops/0-nodejs-devops.md",
+    "frontend/node/syntax/0-node-index.md",
+    "frontend/node/devops",
+    "frontend/node/syntax",
+    "linux/DBus/0-Dbus-index.md",
+    "linux/systemd/1-set-systemd-editor.md",
+    "linux/DBus",
+    "linux/Journal/0-Journal-index.md",
+    "question/letter-short.md",
+    "linux/Journal",
     "linux/shell/7-Array.md",
     "linux/shell/images/shell/array_replace.png",
     "linux/shell/images/shell",
     "linux/shell/images/新建文件夹",
-    "HomePage.md",
     "devOps/kubenates/6-debug-service.md",
     "devOps/kubenates/5-ingress-400-status.md",
     "LLM/skils/1-what's-different-with-skills-and-mcp.md",
@@ -286,36 +396,15 @@
     "python/uv/0-python-uv-index.md",
     "devOps/kubenates/4-create-serviceaccount-for-kubectl.md",
     "devOps/kubenates/3-k8s-error.md",
-    "question/recommendation.md",
-    "LLM/agnet/0-agent-index.md",
-    "python/0-index.md",
-    "LLM/hugging_face/3-transformer-model.md",
-    "LLM/hugging_face/2-transformer-architecture.md",
-    "LLM/hugging_face/1-pipeline.md",
-    "LLM/hugging_face/0-hug-face-transformer-index.md",
     "LLM/hugging_face",
     "LLM/skils",
     "LLM/agnet",
-    "LLM/mcp",
-    "Untitled",
-    "LLM",
-    "python/uv",
-    "frontend/node/4-best-deploy-practise-for-nodejs.md",
-    "frontend/node/5-global-object-in-nodejs.md",
-    "frontend/node/3-this-function-in-nodejs.md",
-    "frontend/node/this_keyword/global.js",
-    "frontend/node/this_keyword/global.js.md",
-    "devOps/gemini/1-setup-config-for-gemini.md",
-    "windows/3-v2RayN-TUN-mode.md",
-    "devOps/git/11-git-squash-feature-branch-into-one-commit.md",
-    "IDE/vmware/3-vmware-bridge-network.md",
     "IDE/vmware/images/net/adpter_default.png",
     "IDE/vmware/images/net/adapter.png",
     "IDE/vmware/images/net/config.png",
     "IDE/vmware/images/net/card_config.png",
     "windows/images/v2ray/v2ray.png",
     "windows/images/v2ray/TUN.png",
-    "devOps/gemini/0-gemini-index.md",
     "linux/shell/images/group_cmd2.png",
     "linux/shell/images/group_cmd1.png",
     "devOps/git/images/rebase/squash3.png",
