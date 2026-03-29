@@ -210,3 +210,16 @@ Below command will open the node debug mode, then you can open chrome://inspect 
 ```shell
 kill -user1  PID
 ```
+
+
+### Fina analyse
+After heapdump, we can open the file with chrome devTool to analyse the heap usage.
+
+```shell
+# open chrome://inspect/#devices
+```
+
+![](./images/analyse_heapdump.png)
+
+
+

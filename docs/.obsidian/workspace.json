@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "857f68ade8b8c37f",
+        "id": "a7d684660eabd957",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 41.68814432989691,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -29,111 +28,28 @@
                 }
               },
               {
-                "id": "79b38e6b55597c08",
+                "id": "ec7167b2ccfcb7d8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "linux/DBus/1-busctl-daily-usage.md",
+                    "file": "frontend/node/devops/1-how-to-heapdump-process.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "1-busctl-daily-usage"
+                  "title": "1-how-to-heapdump-process"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "89439e7bf25b1888",
+            "id": "8d19cf70151501a7",
             "type": "tabs",
-            "dimension": 58.3118556701031,
             "children": [
               {
-                "id": "442c220f7338a610",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
-                        "followTheme": true,
-                        "name": "git-bash",
-                        "platforms": {
-                          "darwin": false,
-                          "linux": false,
-                          "win32": true
-                        },
-                        "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "Terminal: ◇  Ready (docs)"
-                }
-              },
-              {
-                "id": "e473a2556ea77873",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "powershell",
-                        "followTheme": true,
-                        "name": "powershell",
-                        "platforms": {
-                          "win32": true
-                        },
-                        "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "Terminal: ✳ Claude Code"
-                }
-              },
-              {
-                "id": "d1f1dc320c0a289b",
+                "id": "f122e7fcbb6539e4",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -174,8 +90,7 @@
                   "title": "Terminal: MINGW64:/d/project/project-doc/advanced-java-docs/docs"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "horizontal"
@@ -360,27 +275,30 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d1f1dc320c0a289b",
+  "active": "f122e7fcbb6539e4",
   "lastOpenFiles": [
+    "frontend/node/devops/1-how-to-heapdump-process.md",
+    "frontend/node/devops/images/analyse_heapdump.png",
+    "frontend/node/devops/images",
+    "frontend/node/devops/新建文件夹",
+    "HomePage.md",
+    "linux/systemd/2-systemctl-usage.md",
+    "linux/systemd/1-set-systemd-editor.md",
+    "linux/Journal/1-journalctl-daily-usage.md",
     "linux/DBus/1-busctl-daily-usage.md",
     "frontend/node/devops/2-nodejs-remote-debug.md",
-    "frontend/node/devops/1-how-to-heapdump-process.md",
     "frontend/node/express/1-express-register-function.md",
     "frontend/node/syntax/3-this-function-in-nodejs.md",
     "frontend/node/syntax/2-npm多registry管理.md",
     "frontend/node/syntax/5-global-object-in-nodejs.md",
     "frontend/node/syntax/4-best-deploy-practise-for-nodejs.md",
-    "linux/Journal/1-journalctl-daily-usage.md",
-    "linux/systemd/2-systemctl-usage.md",
     "README.md",
     "sets",
-    "HomePage.md",
     "frontend/node/devops/0-nodejs-devops.md",
     "frontend/node/syntax/0-node-index.md",
     "frontend/node/devops",
     "frontend/node/syntax",
     "linux/DBus/0-Dbus-index.md",
-    "linux/systemd/1-set-systemd-editor.md",
     "linux/DBus",
     "linux/Journal/0-Journal-index.md",
     "question/letter-short.md",
@@ -395,10 +313,7 @@
     "LLM/skils/0-skills-index.md",
     "python/uv/0-python-uv-index.md",
     "devOps/kubenates/4-create-serviceaccount-for-kubectl.md",
-    "devOps/kubenates/3-k8s-error.md",
     "LLM/hugging_face",
-    "LLM/skils",
-    "LLM/agnet",
     "IDE/vmware/images/net/adpter_default.png",
     "IDE/vmware/images/net/adapter.png",
     "IDE/vmware/images/net/config.png",
@@ -407,7 +322,6 @@
     "windows/images/v2ray/TUN.png",
     "linux/shell/images/group_cmd2.png",
     "linux/shell/images/group_cmd1.png",
-    "devOps/git/images/rebase/squash3.png",
     "devOps/docker/docker.canvas",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",
