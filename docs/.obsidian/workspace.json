@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a7d684660eabd957",
+        "id": "0437169159417654",
         "type": "split",
         "children": [
           {
@@ -28,28 +28,28 @@
                 }
               },
               {
-                "id": "ec7167b2ccfcb7d8",
+                "id": "2f4eee6eb12ddf07",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "frontend/node/devops/1-how-to-heapdump-process.md",
+                    "file": "linux/command/utils/fd.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "1-how-to-heapdump-process"
+                  "title": "fd"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "8d19cf70151501a7",
+            "id": "2ea56f009bdb4418",
             "type": "tabs",
             "children": [
               {
-                "id": "f122e7fcbb6539e4",
+                "id": "b07ce036ddd4a530",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -275,13 +275,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f122e7fcbb6539e4",
+  "active": "b07ce036ddd4a530",
   "lastOpenFiles": [
+    "linux/command/utils/fd.md",
+    "linux/command/utils/jq.md",
+    "linux/command/utils/Zellij.md",
+    "linux/command/utils/YaZi.md",
+    "linux/command/utils/Ghostty.md",
+    "linux/command/utils/0-utils-index.md",
+    "linux/command/images/--.png",
+    "HomePage.md",
+    "linux/command/utils",
     "frontend/node/devops/1-how-to-heapdump-process.md",
     "frontend/node/devops/images/analyse_heapdump.png",
     "frontend/node/devops/images",
     "frontend/node/devops/新建文件夹",
-    "HomePage.md",
     "linux/systemd/2-systemctl-usage.md",
     "linux/systemd/1-set-systemd-editor.md",
     "linux/Journal/1-journalctl-daily-usage.md",
@@ -308,12 +316,6 @@
     "linux/shell/images/shell",
     "linux/shell/images/新建文件夹",
     "devOps/kubenates/6-debug-service.md",
-    "devOps/kubenates/5-ingress-400-status.md",
-    "LLM/skils/1-what's-different-with-skills-and-mcp.md",
-    "LLM/skils/0-skills-index.md",
-    "python/uv/0-python-uv-index.md",
-    "devOps/kubenates/4-create-serviceaccount-for-kubectl.md",
-    "LLM/hugging_face",
     "IDE/vmware/images/net/adpter_default.png",
     "IDE/vmware/images/net/adapter.png",
     "IDE/vmware/images/net/config.png",
@@ -321,7 +323,6 @@
     "windows/images/v2ray/v2ray.png",
     "windows/images/v2ray/TUN.png",
     "linux/shell/images/group_cmd2.png",
-    "linux/shell/images/group_cmd1.png",
     "devOps/docker/docker.canvas",
     "Java/redis/images/Untitled.canvas",
     "Java/maven/images/Lifecycle.canvas",
