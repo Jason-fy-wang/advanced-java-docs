@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "561d91672c44fd9b",
+        "id": "fd5df73697802007",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 36.5814696485623,
+            "dimension": 46.77835051546392,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -29,29 +29,29 @@
                 }
               },
               {
-                "id": "7db0625942931124",
+                "id": "f52684d5403543aa",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "devOps/AI/claude/1-claude-folder-structure.md",
+                    "file": "devOps/git/15-set-ssh-options-for-git-clone.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "1-claude-folder-structure"
+                  "title": "15-set-ssh-options-for-git-clone"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "f2e2f5fa63ed126a",
+            "id": "b0a10a4b5d9dd7be",
             "type": "tabs",
-            "dimension": 63.418530351437695,
+            "dimension": 53.22164948453608,
             "children": [
               {
-                "id": "4c22b1222e4e83e6",
+                "id": "d1cb306101f9232a",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -84,6 +84,7 @@
                         "type": "integrated",
                         "useWin32Conhost": true
                       },
+                      "profileSourceId": "18fd5718-d3c0-4045-b90a-47ef4eb7cba8",
                       "serial": null
                     }
                   },
@@ -152,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 427.5,
-    "collapsed": true
+    "width": 427.5
   },
   "right": {
     "id": "e87587850ad9e032",
@@ -278,8 +278,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4c22b1222e4e83e6",
+  "active": "d1cb306101f9232a",
   "lastOpenFiles": [
+    "devOps/git/15-set-ssh-options-for-git-clone.md",
+    "HomePage.md",
+    "frontend/react/10-unit-test.md",
     "devOps/AI/claude/1-claude-folder-structure.md",
     "devOps/AI/codex/1-codex-folder-structure.md",
     "devOps/AI/claude/0-claude-index.md",
@@ -293,7 +296,6 @@
     "devOps/AI/Untitled.canvas",
     "devOps/AI/codex",
     "devOps/AI/claude",
-    "HomePage.md",
     "devOps/AI",
     "devOps/cloud/gcp/11-network.md",
     "devOps/cloud/gcp/10-cloud-sql.md",
@@ -311,10 +313,8 @@
     "devOps/cloud/aws",
     "devOps/cloud/gcp",
     "devOps/cloud",
-    "frontend/react/10-unit-test.md",
     "devOps/git/14-include-unexpect-changes.md",
     "devOps/git/13-git-process-tag-branch-with-same-name.md",
-    "Java/maven/4-maven-command-usage.md",
     "linux/command/images/--.png",
     "linux/command/utils",
     "frontend/node/devops/images/analyse_heapdump.png",
