@@ -34,12 +34,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "devOps/git/15-set-ssh-options-for-git-clone.md",
+                    "file": "devOps/cloud/gcp/13-firewall-rules.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "15-set-ssh-options-for-git-clone"
+                  "title": "13-firewall-rules"
                 }
               }
             ],
@@ -280,6 +280,9 @@
   },
   "active": "d1cb306101f9232a",
   "lastOpenFiles": [
+    "devOps/cloud/gcp/13-firewall-rules.md",
+    "devOps/cloud/gcp/12-IAM.md",
+    "devOps/cloud/gcp/13-bucket.md",
     "devOps/git/15-set-ssh-options-for-git-clone.md",
     "HomePage.md",
     "frontend/react/10-unit-test.md",
@@ -309,12 +312,9 @@
     "devOps/cloud/gcp/3-internal-load-balancer.md",
     "devOps/cloud/gcp/2-application-load-balancer.md",
     "devOps/cloud/gcp/1-create-network-load-balancer.md",
-    "devOps/cloud/gcp/0-index-google-cloud-platform.md",
     "devOps/cloud/aws",
     "devOps/cloud/gcp",
     "devOps/cloud",
-    "devOps/git/14-include-unexpect-changes.md",
-    "devOps/git/13-git-process-tag-branch-with-same-name.md",
     "linux/command/images/--.png",
     "linux/command/utils",
     "frontend/node/devops/images/analyse_heapdump.png",
