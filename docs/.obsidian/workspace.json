@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "fd5df73697802007",
+        "id": "604f951ce40ca4a5",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 46.77835051546392,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -29,7 +28,7 @@
                 }
               },
               {
-                "id": "f52684d5403543aa",
+                "id": "2967c831e9f3478f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -46,12 +45,11 @@
             "currentTab": 1
           },
           {
-            "id": "b0a10a4b5d9dd7be",
+            "id": "1c802f2b7a568a37",
             "type": "tabs",
-            "dimension": 53.22164948453608,
             "children": [
               {
-                "id": "d1cb306101f9232a",
+                "id": "3ac5a4d663115f88",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -278,13 +276,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d1cb306101f9232a",
+  "active": "3ac5a4d663115f88",
   "lastOpenFiles": [
     "devOps/cloud/gcp/13-firewall-rules.md",
-    "devOps/cloud/gcp/12-IAM.md",
+    "devOps/cloud/gcp/18-dataproc.md",
+    "devOps/cloud/gcp/17-dataflow.md",
+    "devOps/cloud/gcp/16-gce-instances.md",
+    "devOps/cloud/gcp/11-network.md",
+    "devOps/cloud/gcp/5-PubSub.md",
+    "devOps/cloud/gcp/15-Cloud-AI.md",
+    "devOps/cloud/gcp/14-artifact-registry.md",
     "devOps/cloud/gcp/13-bucket.md",
-    "devOps/git/15-set-ssh-options-for-git-clone.md",
+    "Java/maven/5-how-to-find-who-introduce-the-dependency.md",
     "HomePage.md",
+    "devOps/cloud/gcp/12-IAM.md",
+    "devOps/git/15-set-ssh-options-for-git-clone.md",
     "frontend/react/10-unit-test.md",
     "devOps/AI/claude/1-claude-folder-structure.md",
     "devOps/AI/codex/1-codex-folder-structure.md",
@@ -300,18 +306,10 @@
     "devOps/AI/codex",
     "devOps/AI/claude",
     "devOps/AI",
-    "devOps/cloud/gcp/11-network.md",
     "devOps/cloud/gcp/10-cloud-sql.md",
     "devOps/cloud/gcp/9-GKE.md",
     "devOps/cloud/gcp/8-secrets.md",
-    "devOps/cloud/gcp/7-change-account.md",
-    "devOps/cloud/gcp/6-serviceAccount.md",
-    "devOps/cloud/gcp/5-PubSub.md",
-    "devOps/cloud/gcp/4-cloud-run.md",
     "devOps/cloud/gcp/Untitled",
-    "devOps/cloud/gcp/3-internal-load-balancer.md",
-    "devOps/cloud/gcp/2-application-load-balancer.md",
-    "devOps/cloud/gcp/1-create-network-load-balancer.md",
     "devOps/cloud/aws",
     "devOps/cloud/gcp",
     "devOps/cloud",
