@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2c814b4265021204",
+        "id": "f89b02e36276799f",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 43.75,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -19,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "HomePage.md",
+                    "file": "docs/HomePage.md",
                     "mode": "preview",
                     "source": false
                   },
@@ -27,23 +26,37 @@
                   "icon": "lucide-file",
                   "title": "HomePage"
                 }
+              },
+              {
+                "id": "4d1b19a41b813831",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "docs/devOps/git/16-ambiguity-branch-tag-caused-error.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "16-ambiguity-branch-tag-caused-error"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
-            "id": "929fd8fefed833ee",
+            "id": "1932fd668b526176",
             "type": "tabs",
-            "dimension": 56.25,
             "children": [
               {
-                "id": "8a39ade4afad5889",
+                "id": "5867ebd7086dbca9",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "terminal:terminal",
                   "state": {
                     "terminal:terminal": {
-                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs",
+                      "cwd": "D:\\project\\project-doc\\advanced-java-docs",
                       "focus": false,
                       "profile": {
                         "args": [],
@@ -77,52 +90,8 @@
                   "icon": "terminal",
                   "title": "Terminal: MINGW64:/d/project/project-doc/advanced-java-docs"
                 }
-              },
-              {
-                "id": "cc129b20979fd318",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "D:\\project\\project-doc\\advanced-java-docs\\docs",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
-                        "followTheme": true,
-                        "name": "git-bash",
-                        "platforms": {
-                          "darwin": false,
-                          "linux": false,
-                          "win32": true
-                        },
-                        "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "profileSourceId": "18fd5718-d3c0-4045-b90a-47ef4eb7cba8",
-                      "serial": null
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "Terminal: MINGW64:/d/project/project-doc/advanced-java-docs/docs"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -131,15 +100,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "39226f1f7def6317",
+    "id": "28c76db86e3bc9a2",
     "type": "split",
     "children": [
       {
-        "id": "26ca44da361c28ec",
+        "id": "a0c3d50fefabca2f",
         "type": "tabs",
         "children": [
           {
-            "id": "5776e522bce60b68",
+            "id": "28830aa4669f30d3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -152,7 +121,7 @@
             }
           },
           {
-            "id": "b7757ddcdddc7cb1",
+            "id": "c6a2a23eff168656",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -169,7 +138,7 @@
             }
           },
           {
-            "id": "587ebacd256861cf",
+            "id": "ef06a6b68e4eaa68",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -182,23 +151,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 427.5
+    "width": 300
   },
   "right": {
-    "id": "e87587850ad9e032",
+    "id": "173b3203f134d304",
     "type": "split",
     "children": [
       {
-        "id": "c0af9bf681053ea5",
+        "id": "9ae012138630e90b",
         "type": "tabs",
         "children": [
           {
-            "id": "b4d9eac103b76cba",
+            "id": "045f219089eddc27",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "image/directly_mem/1.java-off-heap-memory.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,73 +177,79 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1.java-off-heap-memory"
+              "title": "Backlinks for README"
             }
           },
           {
-            "id": "a40712078b7e6cb1",
+            "id": "f357d86e0f2acdb9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "image/directly_mem/1.java-off-heap-memory.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1.java-off-heap-memory"
+              "title": "Outgoing links from README"
             }
           },
           {
-            "id": "dcec2b974eaf82e8",
+            "id": "f30b33212410795a",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "83e5be962d2acbff",
+            "id": "a61c3631555bb554",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "519d090519fe95ad",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "HomePage.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HomePage"
+              "title": "Outline of README"
             }
           },
           {
-            "id": "84f2f5066eaea800",
+            "id": "4c1ebb80a311364f",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
-            "id": "c029e680c6d35784",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "b9bef959f1e301b9",
+            "id": "b45bf6c4d4bed8a9",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -282,9 +257,18 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
+          },
+          {
+            "id": "04aa8c435475e372",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -301,72 +285,33 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "terminal:Open terminal": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "5867ebd7086dbca9",
   "lastOpenFiles": [
-    "HomePage.md",
-    "Daily-work/2026-05-21-Thursday.md",
-    "Untitled.base",
-    "devOps/cloud/gcp/13-firewall-rules.md",
-    "devOps/cloud/gcp/18-dataproc.md",
-    "devOps/cloud/gcp/17-dataflow.md",
-    "devOps/cloud/gcp/16-gce-instances.md",
-    "devOps/cloud/gcp/11-network.md",
-    "devOps/cloud/gcp/5-PubSub.md",
-    "devOps/cloud/gcp/15-Cloud-AI.md",
-    "devOps/cloud/gcp/14-artifact-registry.md",
-    "devOps/cloud/gcp/13-bucket.md",
-    "Java/maven/5-how-to-find-who-introduce-the-dependency.md",
-    "devOps/cloud/gcp/12-IAM.md",
-    "devOps/git/15-set-ssh-options-for-git-clone.md",
-    "frontend/react/10-unit-test.md",
-    "devOps/AI/claude/1-claude-folder-structure.md",
-    "devOps/AI/codex/1-codex-folder-structure.md",
-    "devOps/AI/claude/0-claude-index.md",
-    "devOps/Intranet_penetration/3-frp.md",
-    "devOps/Intranet_penetration/1-ngrok.md",
-    "devOps/Intranet_penetration/2-花生壳.md",
-    "devOps/Intranet_penetration/0-index-intranet.md",
-    "devOps/Intranet_penetration",
-    "devOps/AI/claude/Untitled 1.md",
-    "devOps/AI/codex/0-codex-index.md",
-    "devOps/AI/Untitled.canvas",
-    "devOps/AI/codex",
-    "devOps/AI/claude",
-    "devOps/AI",
-    "devOps/cloud/gcp/10-cloud-sql.md",
-    "devOps/cloud/gcp/9-GKE.md",
-    "devOps/cloud/gcp/Untitled",
-    "devOps/cloud/aws",
-    "devOps/cloud/gcp",
-    "devOps/cloud",
-    "linux/command/images/--.png",
-    "linux/command/utils",
-    "frontend/node/devops/images/analyse_heapdump.png",
-    "linux/shell/images/shell/array_replace.png",
-    "IDE/vmware/images/net/adpter_default.png",
-    "IDE/vmware/images/net/adapter.png",
-    "IDE/vmware/images/net/config.png",
-    "IDE/vmware/images/net/card_config.png",
-    "windows/images/v2ray/v2ray.png",
-    "windows/images/v2ray/TUN.png",
-    "linux/shell/images/group_cmd2.png",
-    "devOps/docker/docker.canvas",
-    "Java/redis/images/Untitled.canvas",
-    "Java/maven/images/Lifecycle.canvas",
-    "review_and_plan/netty_learn.canvas",
-    "review_and_plan/long-target.canvas",
-    "review_and_plan/long-target 1.canvas",
-    "review_and_plan/daily-work.canvas",
-    "review_and_plan/CFA-plan.canvas",
-    "linux/lvm/lvm_command.canvas"
+    ".git/objects/c3/ff1f01c42dd79a1d61fe0e9414861a7095e6fc",
+    ".git/objects/f9/b287fde858242bdcef6feb2a12db07266bbe37",
+    ".git/objects/0a/80cbde28d27327b269757636332e5a12390049",
+    ".git/objects/77/fab1489b8e2c2fee7089fc73d761ff7a192923",
+    ".git/objects/f5/5797c9798dc1b0b92a280850cccebccd9d9fb1",
+    ".git/objects/7e/39c5b522ea18bcb30d44e2663438f9cbef5cd7",
+    ".git/objects/44/707062e19f7cba22b120712e67f7ac24c3a2d2",
+    ".git/objects/5f/e3816d49da8cfa4eef67bbac91e2706c748b82",
+    ".git/objects/46/088fdae66e09d6a69078f391aeac0b270fa603",
+    ".git/objects/4e/3b012fcb1de00db219689ef9fd17cd7d9f3ee8",
+    ".git/objects/4e/tmp_obj_LDpgvt",
+    "docs/devOps/git/16-ambiguity-branch-tag-caused-error.md",
+    ".github/skills/technology_writer/technology-writer.md",
+    ".github/skills/Untitled.md",
+    "docs/HomePage.md",
+    ".github/copilot-instructions.md",
+    "README.md"
   ]
 }
