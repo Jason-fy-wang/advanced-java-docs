@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f89b02e36276799f",
+        "id": "83b0ed92ca7d3cf5",
         "type": "split",
         "children": [
           {
-            "id": "4509724f8bf84da7",
+            "id": "5c2d635b399f61f4",
             "type": "tabs",
+            "dimension": 55.86340206185567,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -28,28 +29,29 @@
                 }
               },
               {
-                "id": "4d1b19a41b813831",
+                "id": "4d5deecfc889cdec",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/devOps/git/16-ambiguity-branch-tag-caused-error.md",
+                    "file": "docs/devOps/cloud/gcp/20-edmz-in-gcp.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "16-ambiguity-branch-tag-caused-error"
+                  "title": "20-edmz-in-gcp"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "1932fd668b526176",
+            "id": "88145e7b4c5adbd6",
             "type": "tabs",
+            "dimension": 44.13659793814433,
             "children": [
               {
-                "id": "5867ebd7086dbca9",
+                "id": "551b5ebe29f74cf1",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -83,15 +85,105 @@
                         "useWin32Conhost": true
                       },
                       "profileSourceId": "18fd5718-d3c0-4045-b90a-47ef4eb7cba8",
-                      "serial": null
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: advanced-java-docs"
+                }
+              },
+              {
+                "id": "afe71bcadce47804",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "D:\\project\\project-doc\\advanced-java-docs",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
+                        "followTheme": true,
+                        "name": "git-bash",
+                        "platforms": {
+                          "darwin": false,
+                          "linux": false,
+                          "win32": true
+                        },
+                        "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "18fd5718-d3c0-4045-b90a-47ef4eb7cba8",
+                      "serial": null,
+                      "userTitle": ""
                     }
                   },
                   "pinned": true,
                   "icon": "terminal",
                   "title": "Terminal: MINGW64:/d/project/project-doc/advanced-java-docs"
                 }
+              },
+              {
+                "id": "f93fb5dbccc90811",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "D:\\project\\project-doc\\advanced-java-docs",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
+                        "followTheme": true,
+                        "name": "git-bash",
+                        "platforms": {
+                          "darwin": false,
+                          "linux": false,
+                          "win32": true
+                        },
+                        "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "18fd5718-d3c0-4045-b90a-47ef4eb7cba8",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: GitHub Copilot"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -151,7 +243,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 412.5
   },
   "right": {
     "id": "173b3203f134d304",
@@ -294,24 +386,34 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5867ebd7086dbca9",
+  "active": "afe71bcadce47804",
   "lastOpenFiles": [
-    ".git/objects/c3/ff1f01c42dd79a1d61fe0e9414861a7095e6fc",
-    ".git/objects/f9/b287fde858242bdcef6feb2a12db07266bbe37",
-    ".git/objects/0a/80cbde28d27327b269757636332e5a12390049",
-    ".git/objects/77/fab1489b8e2c2fee7089fc73d761ff7a192923",
-    ".git/objects/f5/5797c9798dc1b0b92a280850cccebccd9d9fb1",
-    ".git/objects/7e/39c5b522ea18bcb30d44e2663438f9cbef5cd7",
-    ".git/objects/44/707062e19f7cba22b120712e67f7ac24c3a2d2",
-    ".git/objects/5f/e3816d49da8cfa4eef67bbac91e2706c748b82",
-    ".git/objects/46/088fdae66e09d6a69078f391aeac0b270fa603",
-    ".git/objects/4e/3b012fcb1de00db219689ef9fd17cd7d9f3ee8",
-    ".git/objects/4e/tmp_obj_LDpgvt",
-    "docs/devOps/git/16-ambiguity-branch-tag-caused-error.md",
-    ".github/skills/technology_writer/technology-writer.md",
-    ".github/skills/Untitled.md",
+    ".git/objects/02/tmp_obj_3EbA6E",
+    ".git/objects/6c/514e8ad43714da0c65963186d0b1750abbf611",
+    ".git/objects/d9/98e879ce6fd9a4074fa8ecd2f32eab62292097",
+    ".git/objects/69/3a2f7c9f2c7a34245e12cb547eed0a749f7839",
+    ".agents/skills/.git/objects/b4/d819a6f000912b3968455a3b1e3681956e614a",
+    ".agents/skills/.git/objects/b4",
+    ".agents/skills/.git/objects/4a/6ea8442c9f3cb47b6cb3005056a6502ffcb619",
+    ".agents/skills/.git/objects/4a",
+    ".agents/skills/.git/refs/heads/main",
+    "docs/linux/kvm/21-kvm-tailscale-headscale-zerotier.md",
+    "docs/linux/kvm/20-kvm-ovn-sdn-network.md",
+    "docs/linux/kvm/19-kvm-vxlan-l2-overlay.md",
+    "docs/linux/kvm/18-kvm-wireguard-routed-network.md",
+    "docs/devOps/cloud/gcp/20-edmz-in-gcp.md",
+    "docs/devOps/cloud/gcp/21-NAT-setup-for-gce.md",
+    ".agents/skills/.git/logs/refs/heads/main",
+    ".agents/skills/.git/logs/refs/heads",
+    ".agents/skills/google-cloud-documentation/SKILL.md",
+    "docs/devOps/AI/codex/2-skill-spec.md",
+    "docs/devOps/cloud/gcp/19-HA-VPN.md",
+    ".agents/skills/google-cloud-documentation/SKILLS.md",
+    "docs/devOps/AI/codex/1-codex-folder-structure.md",
+    ".agents/skills/google-cloud-documentation.skill.md",
+    "docs/devOps/cloud/aws/1-awscli-install.md",
     "docs/HomePage.md",
+    ".github/skills/technology_writer/technology-writer.md",
     ".github/copilot-instructions.md",
-    "README.md"
-  ]
-}
+    "docs/devOps/git/16-ambiguity-branch-tag-caused-error.md",
+    ".github/skills/Un

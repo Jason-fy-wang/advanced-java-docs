@@ -1,6 +1,9 @@
 {
   "enabledFolders": [
+    ".agent",
+    ".agents",
     ".claude",
+    ".codex",
     ".git",
     ".github"
   ],

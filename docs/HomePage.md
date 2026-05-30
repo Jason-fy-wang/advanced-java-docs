@@ -1,6 +1,7 @@
 ---
 tags:
   - Home
+  - index
 ---
 足迹
 ```ActivityHistory
