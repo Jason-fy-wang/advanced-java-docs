@@ -22,7 +22,7 @@ RH6, ansible-2.6
 ![](./images/8-ansible-exception.png)
 
 ```shell
--("changed-:false,"cur context"["unconfined u","object_""vxfs_t","s"]"gid":27373,"group":"fixinfra",
+-("changed-:false,"cur context"["unconfined u","object_r""vxfs_t","s"]"gid":27373,"group":"fixinfra",
 "input was":["system_u","object_r,default_t","s],"mode":600"msg":"invalid selinux context:[Errno 95]Operation not supported","new_context":["system_u","object_r","default_t","s0"],"owner":"gfixadm","path":"/App/ansible-tmp-mb/-ansible_tmpmiRkAggfix-mb-24.0.3.978.tar.gz",
 "secontext: "size":125605689,"state":"fi1e","uid":200001166)
 "unconfined_u:object_r:vxfs_t:s0")
