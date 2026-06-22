@@ -6,6 +6,7 @@
   "exposeInternalModules": true,
   "focusOnNewInstance": true,
   "hideStatusBar": "focused",
+  "interceptKeysWhenFocused": true,
   "interceptLogging": true,
   "keymappings": [
     {
@@ -139,6 +140,7 @@
   "profiles": {
     "555f9592-aab6-474c-a7f8-8e0a9005f284": {
       "args": [],
+      "environment": [],
       "executable": "powershell",
       "followTheme": true,
       "name": "powershell",
@@ -161,6 +163,7 @@
     },
     "18fd5718-d3c0-4045-b90a-47ef4eb7cba8": {
       "args": [],
+      "environment": [],
       "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
       "followTheme": true,
       "name": "git-bash",
@@ -200,6 +203,7 @@
     },
     "win32ExternalDefault": {
       "args": [],
+      "environment": [],
       "executable": "C:\\Windows\\System32\\cmd.exe",
       "followTheme": true,
       "name": "",
@@ -220,6 +224,7 @@
     },
     "win32IntegratedDefault": {
       "args": [],
+      "environment": [],
       "executable": "C:\\Windows\\System32\\cmd.exe",
       "followTheme": true,
       "name": "",

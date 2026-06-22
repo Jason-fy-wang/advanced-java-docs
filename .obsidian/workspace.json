@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "0033578c505facc2",
+        "id": "57c53feb026e12bd",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 48.131443298969074,
+            "dimension": 25.541125541125542,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -29,71 +29,57 @@
                 }
               },
               {
-                "id": "623b6035c3f515f5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/linux/podman/1-Podman_In_Action_Summary.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "1-Podman_In_Action_Summary"
-                }
-              },
-              {
-                "id": "4e7e508868617467",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/linux/podman/2-podman-avtive-notify.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "2-podman-avtive-notify"
-                }
-              },
-              {
-                "id": "8c34316fb0824615",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/linux/selinux/5-SELinux_System_Administration_Summary.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "5-SELinux_System_Administration_Summary"
-                }
-              },
-              {
-                "id": "e35f43c5f00c55c6",
+                "id": "b12cc61345ce07f9",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "docs/linux/kvm/20-kvm-ovn-sdn-network.md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
                   "title": "20-kvm-ovn-sdn-network"
                 }
+              },
+              {
+                "id": "285a41ce865384e1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "docs/linux/kvm/20.1-ovn-debug-command.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "20.1-ovn-debug-command"
+                }
+              },
+              {
+                "id": "238afd7a1c761e1f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "docs/linux/kvm/20.3-auto-binding-interface.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "20.3-auto-binding-interface"
+                }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
-            "id": "81dcbb3811634b17",
+            "id": "73dc9a40794e2b56",
             "type": "tabs",
-            "dimension": 51.86855670103093,
+            "dimension": 74.45887445887446,
             "children": [
               {
-                "id": "c7b4a0edd81c0c71",
+                "id": "0d5c8a2d2d32d4a3",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -104,6 +90,7 @@
                       "focus": false,
                       "profile": {
                         "args": [],
+                        "environment": [],
                         "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
                         "followTheme": true,
                         "name": "git-bash",
@@ -137,7 +124,7 @@
                 }
               },
               {
-                "id": "38de6452b77847bb",
+                "id": "9306160495395555",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -148,6 +135,7 @@
                       "focus": false,
                       "profile": {
                         "args": [],
+                        "environment": [],
                         "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
                         "followTheme": true,
                         "name": "git-bash",
@@ -190,15 +178,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "28c76db86e3bc9a2",
+    "id": "458238c256aa9b6e",
     "type": "split",
     "children": [
       {
-        "id": "a0c3d50fefabca2f",
+        "id": "e35ddfc94babbf7f",
         "type": "tabs",
         "children": [
           {
-            "id": "28830aa4669f30d3",
+            "id": "aaba71f5106631b7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -211,7 +199,7 @@
             }
           },
           {
-            "id": "c6a2a23eff168656",
+            "id": "30609f1103ac46fa",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -228,7 +216,7 @@
             }
           },
           {
-            "id": "ef06a6b68e4eaa68",
+            "id": "ab14a9b61e843efa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -241,23 +229,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 367.5,
+    "collapsed": true
   },
   "right": {
-    "id": "173b3203f134d304",
+    "id": "9cf28b8a9242a93a",
     "type": "split",
     "children": [
       {
-        "id": "9ae012138630e90b",
+        "id": "61d29a6b2b658063",
         "type": "tabs",
         "children": [
           {
-            "id": "045f219089eddc27",
+            "id": "6b37368be05a228c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -267,25 +255,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "f357d86e0f2acdb9",
+            "id": "ab62e91a0621eee4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "f30b33212410795a",
+            "id": "361c09022cdbffc3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -300,36 +287,21 @@
             }
           },
           {
-            "id": "a61c3631555bb554",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-ghost",
-              "title": "all-properties"
-            }
-          },
-          {
-            "id": "519d090519fe95ad",
+            "id": "c4bd739adfa3f77f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           },
           {
-            "id": "4c1ebb80a311364f",
+            "id": "8a30a2ce19dd7946",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -339,7 +311,7 @@
             }
           },
           {
-            "id": "b45bf6c4d4bed8a9",
+            "id": "386d7b35731e502e",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -349,7 +321,7 @@
             }
           },
           {
-            "id": "04aa8c435475e372",
+            "id": "a8dccccf374d2304",
             "type": "leaf",
             "state": {
               "type": "planner-time-tracker",
@@ -357,19 +329,8 @@
               "icon": "timer",
               "title": "Time Tracker"
             }
-          },
-          {
-            "id": "cdfab2a872a44735",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "horizontal",
@@ -395,43 +356,25 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "38de6452b77847bb",
+  "active": "9306160495395555",
   "lastOpenFiles": [
-    "docs/linux/podman/2-podman-avtive-notify.md",
-    "docs/linux/selinux/5-SELinux_System_Administration_Summary.md",
+    "docs/linux/kvm/20.3-auto-binding-interface.md",
+    "docs/linux/kvm/20.1-ovn-debug-command.md",
     "docs/linux/kvm/20-kvm-ovn-sdn-network.md",
-    "docs/linux/podman/1-Podman_In_Action_Summary.md",
-    ".git/objects/de/39f49b232403b827e69e95c21fc8d0ecf93b42",
-    ".git/objects/9e/bb5d50e9e477fafeb68ec305d56834c2c2aab8",
-    ".git/objects/39/0b8366fdba535918e7c6a81cd6a89000338fca",
-    ".git/objects/cf/bf8261ef8f9987bc0f5ceaee86e425dcf3d239",
-    ".git/objects/bf/ee30bf47928815aba02cba50dd2ed09c95c9de",
-    ".git/objects/c0/6b7ed15d5b0496ec437a2cc426bb9f862517ed",
-    ".git/objects/3a/759d32501818d6d7360a4a67a458c788e43bd1",
-    ".git/objects/cf/219132f2a0cd58206fba4caa4525b91a247189",
-    ".git/objects/bb/8a7e6b1b5081df1afcdb7b54ff2d8bcbff3d8b",
-    ".git/objects/09/c0fa246fb559e7a35984f3dc5e042123504ef4",
-    "docs/linux/selinux/3-SELinux-example.md",
-    "docs/linux/selinux/2-SELinux-ansible-exception.md",
-    "docs/linux/selinux/1-selinux-comamnd-knowledge.md",
-    "docs/linux/podman/0-podman-index.md",
+    "docs/linux/kvm/20.2-auto-bind-ovn-invlide.md",
     "docs/HomePage.md",
     ".github/skills/technology_writer/technology-writer.md",
+    ".github/skills/technology_writer",
+    ".github/skills",
+    ".github/hook",
     ".github/copilot-instructions.md",
-    ".agents/skills/google-cloud-documentation/SKILL.md",
-    "docs/linux/ubuntu/2-install-k8s.md",
-    "docs/linux/network/0-linux-netowrk-index.md",
-    "docs/linux/kvm/20.1-ovn-debug-command.md",
-    "docs/linux/kvm/24-ovs-HA.md",
-    "docs/linux/kvm/23-ovn-HA.md",
-    "docs/linux/network/5-ufw.md",
-    "docs/linux/network/6-.md",
-    "docs/linux/network/4-firewall-cmd.md",
-    "docs/linux/network/3-bond.md",
-    "docs/linux/network/2-iptables.md",
-    "docs/linux/network/1-ip.md",
-    "docs/linux/kvm/qemu-install.md",
-    "docs/linux/Untitled.md",
-    "docs/linux/kvm/22-Firecracker.md"
+    ".github/clients",
+    ".git/logs/refs/remotes/gitee/master",
+    ".git/logs/refs/remotes/origin/master",
+    ".git/refs/remotes/gitee/master",
+    ".git/refs/remotes/origin/master",
+    ".github",
+    ".git/logs/refs/remotes/origin",
+    ".agents/skills/google-cloud-documentation/SKILL.md"
   ]
 }
