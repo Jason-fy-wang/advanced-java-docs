@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "57c53feb026e12bd",
+        "id": "c62d6731edb1ce5c",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 25.541125541125542,
+            "dimension": 67.72334293948127,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -29,57 +29,43 @@
                 }
               },
               {
-                "id": "b12cc61345ce07f9",
+                "id": "06d64df2a421fa2c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/linux/kvm/20-kvm-ovn-sdn-network.md",
+                    "file": "docs/go/21-go-debug-tools.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "20-kvm-ovn-sdn-network"
+                  "title": "21-go-debug-tools"
                 }
               },
               {
-                "id": "285a41ce865384e1",
+                "id": "2e49bfb4c02b05df",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/linux/kvm/20.1-ovn-debug-command.md",
-                    "mode": "source",
+                    "file": "docs/CSharp/1-CSharp-Debug-tools.md",
+                    "mode": "preview",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "20.1-ovn-debug-command"
-                }
-              },
-              {
-                "id": "238afd7a1c761e1f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/linux/kvm/20.3-auto-binding-interface.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "20.3-auto-binding-interface"
+                  "title": "1-CSharp-Debug-tools"
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           },
           {
-            "id": "73dc9a40794e2b56",
+            "id": "5c48930affba0ead",
             "type": "tabs",
-            "dimension": 74.45887445887446,
+            "dimension": 32.27665706051873,
             "children": [
               {
-                "id": "0d5c8a2d2d32d4a3",
+                "id": "90214201e6d041c7",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -120,11 +106,11 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: advanced-java-docs"
+                  "title": "Terminal: MINGW64:/d/project/project-doc/advanced-java-docs/docs"
                 }
               },
               {
-                "id": "9306160495395555",
+                "id": "9dbc3005312f3a0a",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -192,7 +178,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -229,8 +217,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5,
-    "collapsed": true
+    "width": 367.5
   },
   "right": {
     "id": "9cf28b8a9242a93a",
@@ -356,25 +343,36 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9306160495395555",
+  "active": "9dbc3005312f3a0a",
   "lastOpenFiles": [
-    "docs/linux/kvm/20.3-auto-binding-interface.md",
-    "docs/linux/kvm/20.1-ovn-debug-command.md",
-    "docs/linux/kvm/20-kvm-ovn-sdn-network.md",
-    "docs/linux/kvm/20.2-auto-bind-ovn-invlide.md",
+    ".git/objects/4a/cd3eeb2010c91fde1bb6a732533216f8e88ebe",
+    ".git/objects/b6/5e3f3a40d99c2078a2ad75c78d011c95ebcf40",
+    "docs/go/21-go-debug-tools.md",
+    "docs/CSharp/1-CSharp-Debug-tools.md",
+    "docs/go/19-go-debug.md",
+    "docs/go/Untitled 1.md",
+    "docs/CSharp/0-CSharp-index.md",
     "docs/HomePage.md",
+    "docs/CSharp",
     ".github/skills/technology_writer/technology-writer.md",
     ".github/skills/technology_writer",
     ".github/skills",
     ".github/hook",
     ".github/copilot-instructions.md",
     ".github/clients",
-    ".git/logs/refs/remotes/gitee/master",
     ".git/logs/refs/remotes/origin/master",
-    ".git/refs/remotes/gitee/master",
+    ".git/logs/refs/remotes/gitee/master",
     ".git/refs/remotes/origin/master",
-    ".github",
-    ".git/logs/refs/remotes/origin",
-    ".agents/skills/google-cloud-documentation/SKILL.md"
+    ".git/refs/remotes/gitee/master",
+    ".agents/skills/google-cloud-documentation/SKILL.md",
+    "银行账户确认书.md",
+    "README.md",
+    "docs/threadLocal-leak.png",
+    "docs/network/HCIA/1-create_user_to_telnet.md",
+    "docs/network/HCIA/0-HCIA-index.md",
+    "docs/linux/kvm/20.3-auto-binding-interface.md",
+    "docs/linux/kvm/20.1-ovn-debug-command.md",
+    "docs/linux/kvm/20-kvm-ovn-sdn-network.md",
+    "docs/linux/kvm/20.2-auto-bind-ovn-invalid.md"
   ]
 }
