@@ -3,7 +3,6 @@
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-default-light",
   "darkScheme": "minimal-things-dark",
-  "editorFont": "",
   "lineHeight": 1.5,
   "lineWidth": 40,
   "lineWidthWide": 50,
@@ -30,6 +29,7 @@
   "folding": true,
   "lineNumbers": true,
   "readableLineLength": true,
+  "editorFont": "",
   "devBlockWidth": false,
   "theme": "moonstone",
   "useSystemTheme": false

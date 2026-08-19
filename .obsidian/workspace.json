@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "c62d6731edb1ce5c",
+        "id": "ee1e39df213e748a",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 67.72334293948127,
+            "dimension": 63.701578192252505,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -29,43 +29,29 @@
                 }
               },
               {
-                "id": "06d64df2a421fa2c",
+                "id": "b562a2d8a7c01436",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/go/21-go-debug-tools.md",
+                    "file": "docs/linux/proxy/sing-box/1-sing-box-config.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "21-go-debug-tools"
-                }
-              },
-              {
-                "id": "2e49bfb4c02b05df",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/CSharp/1-CSharp-Debug-tools.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "1-CSharp-Debug-tools"
+                  "title": "1-sing-box-config"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "5c48930affba0ead",
+            "id": "cd2dd8f755668f6e",
             "type": "tabs",
-            "dimension": 32.27665706051873,
+            "dimension": 36.29842180774749,
             "children": [
               {
-                "id": "90214201e6d041c7",
+                "id": "24f0e782625d9cbc",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -106,56 +92,10 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: MINGW64:/d/project/project-doc/advanced-java-docs/docs"
-                }
-              },
-              {
-                "id": "9dbc3005312f3a0a",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "D:\\project\\project-doc\\advanced-java-docs",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "environment": [],
-                        "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
-                        "followTheme": true,
-                        "name": "git-bash",
-                        "platforms": {
-                          "darwin": false,
-                          "linux": false,
-                          "win32": true
-                        },
-                        "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "profileSourceId": "18fd5718-d3c0-4045-b90a-47ef4eb7cba8",
-                      "serial": null,
-                      "userTitle": ""
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "Terminal: MINGW64:/d/project/project-doc/advanced-java-docs"
+                  "title": "MINGW64:/d/project/project-doc/advanced-java-docs"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -298,7 +238,7 @@
             }
           },
           {
-            "id": "386d7b35731e502e",
+            "id": "3c8307d0676b883c",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -308,7 +248,7 @@
             }
           },
           {
-            "id": "a8dccccf374d2304",
+            "id": "5971b0931e68624b",
             "type": "leaf",
             "state": {
               "type": "planner-time-tracker",
@@ -343,28 +283,35 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9dbc3005312f3a0a",
+  "active": "24f0e782625d9cbc",
   "lastOpenFiles": [
-    ".git/objects/4a/cd3eeb2010c91fde1bb6a732533216f8e88ebe",
-    ".git/objects/b6/5e3f3a40d99c2078a2ad75c78d011c95ebcf40",
-    "docs/go/21-go-debug-tools.md",
-    "docs/CSharp/1-CSharp-Debug-tools.md",
-    "docs/go/19-go-debug.md",
-    "docs/go/Untitled 1.md",
-    "docs/CSharp/0-CSharp-index.md",
+    ".git/objects/04/e589737314be91e0980493502543a46a52776c",
+    ".git/objects/ac/7d3f55025babf92f959ecc636f74360d022139",
+    ".git/objects/ac/tmp_obj_IbtlT3",
+    "docs/linux/proxy/sing-box/1-sing-box-config.md",
     "docs/HomePage.md",
-    "docs/CSharp",
     ".github/skills/technology_writer/technology-writer.md",
     ".github/skills/technology_writer",
     ".github/skills",
     ".github/hook",
     ".github/copilot-instructions.md",
     ".github/clients",
-    ".git/logs/refs/remotes/origin/master",
     ".git/logs/refs/remotes/gitee/master",
-    ".git/refs/remotes/origin/master",
+    ".git/logs/refs/remotes/origin/master",
     ".git/refs/remotes/gitee/master",
+    ".git/refs/remotes/origin/master",
     ".agents/skills/google-cloud-documentation/SKILL.md",
+    "docs/linux/proxy/sing-box/0-sing-box-index.md",
+    "docs/question/letter-short.md",
+    "docs/question/project-description.md",
+    "docs/question/self recommendation letter-v2.md",
+    "docs/question/英文介绍.md",
+    "docs/question/self recommendation letter.md",
+    "docs/go/21-go-debug-tools.md",
+    "docs/CSharp/1-CSharp-Debug-tools.md",
+    "docs/go/19-go-debug.md",
+    "docs/go/Untitled 1.md",
+    "docs/CSharp/0-CSharp-index.md",
     "银行账户确认书.md",
     "README.md",
     "docs/threadLocal-leak.png",
