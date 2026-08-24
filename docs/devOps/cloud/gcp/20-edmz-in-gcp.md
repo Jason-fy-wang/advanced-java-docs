@@ -441,6 +441,8 @@ Attach a Cloud Armor policy to restrict and inspect public traffic before it rea
 
 Example policy:
 
+Cloud Armor creates a default rule for each security policy. Its reserved priority is `2147483647` (`INT-MAX`), the lowest priority, so it applies only when no higher-priority rule matches.
+
 ```shell
 gcloud compute security-policies create edmz-edge-policy \
   --description="Edge policy for EDMZ ingress"
