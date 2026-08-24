@@ -9,8 +9,8 @@
   "libraryFolderPath": "Excalidraw/Libraries",
   "libraryFileName": "local-library",
   "libraryStorageMode": "data-json",
-  "libraryMigrationStatus": "pending",
-  "libraryMigrationSnoozeUntil": 0,
+  "libraryMigrationStatus": "later",
+  "libraryMigrationSnoozeUntil": 1787667112025,
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
@@ -126,7 +126,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.17.2",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.26.4",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -160,18 +160,8 @@
             "updated": 1725665709013,
             "link": null,
             "locked": false,
-            "startBinding": {
-              "elementId": "SMs0SbixLYMm8FdjzZrEo",
-              "gap": 1,
-              "focus": -0.42714273012305853,
-              "fixedPoint": null
-            },
-            "endBinding": {
-              "elementId": "DN8MArUoWXry4978hCwhQ",
-              "gap": 1.9715511726681143,
-              "focus": 0.23491271250708065,
-              "fixedPoint": null
-            },
+            "startBinding": null,
+            "endBinding": null,
             "lastCommittedPoint": null,
             "startArrowhead": null,
             "endArrowhead": "arrow",
@@ -184,7 +174,8 @@
                 72.17726813460831,
                 118.96804885635436
               ]
-            ]
+            ],
+            "hasTextLink": false
           }
         ],
         "id": "vbLxmnBCxaNmHYmw_ekqG",

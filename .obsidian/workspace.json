@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "58bfb7b0d9e66f82",
+        "id": "a17311df2a4d20a5",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 54.30416068866572,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -29,29 +28,43 @@
                 }
               },
               {
-                "id": "30831ba9958df30a",
+                "id": "39a6cf17f116deee",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "15a846185c68eda8",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "canvas",
                   "state": {
-                    "file": "docs/linux/podman/4-scratch-image-inspect.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "docs/CSharp/UnitTest.canvas",
+                    "viewState": {
+                      "x": 427.400146484375,
+                      "y": -192.7999267578125,
+                      "zoom": 0
+                    }
                   },
-                  "icon": "lucide-file",
-                  "title": "4-scratch-image-inspect"
+                  "icon": "lucide-layout-dashboard",
+                  "title": "UnitTest"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
-            "id": "ebac67e7672a486c",
+            "id": "981cb020fed2d2fd",
             "type": "tabs",
-            "dimension": 45.69583931133429,
             "children": [
               {
-                "id": "7931c14d9ae24c68",
+                "id": "8e3867829e41e6c7",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -283,26 +296,29 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "7931c14d9ae24c68",
+  "active": "8e3867829e41e6c7",
   "lastOpenFiles": [
-    ".git/objects/25/b5a3479be8c1e524ff9dce5079fd33a0cd20b6",
-    ".git/objects/bb/fe75042de965e294776175274d27ba34340399",
-    ".git/objects/9d/04d82c3f1b30203b8c0993ba21a4803974a6ad",
-    "docs/linux/podman/4-scratch-image-inspect.md",
-    "docs/linux/podman/images/overlayer.png",
-    "docs/linux/podman/images",
-    "docs/linux/podman/3-podman-error.md",
+    "docs/CSharp/UnitTest.canvas",
+    "docs/CSharp/Drawing 2026-08-24 22.11.21.excalidraw.md",
+    "docs/CSharp/0-CSharp-index.md",
+    "docs/CSharp/1-CSharp-Debug-tools.md",
     "docs/HomePage.md",
     ".github/skills/technology_writer/technology-writer.md",
     ".github/skills/technology_writer",
-    ".github/hook",
     ".github/skills",
+    ".github/hook",
     ".github/copilot-instructions.md",
     ".github/clients",
     ".git/logs/refs/remotes/gitee/master",
     ".git/logs/refs/remotes/origin/master",
+    ".git/refs/remotes/gitee/master",
+    ".git/refs/remotes/origin/master",
     ".github",
+    ".git/logs/refs/heads/master",
     ".agents/skills/google-cloud-documentation/SKILL.md",
+    "docs/linux/podman/4-scratch-image-inspect.md",
+    "docs/linux/podman/images/overlayer.png",
+    "docs/linux/podman/3-podman-error.md",
     "docs/linux/proxy/sing-box/1-sing-box-config.md",
     "docs/linux/proxy/sing-box/0-sing-box-index.md",
     "docs/question/letter-short.md",
@@ -311,17 +327,14 @@
     "docs/question/英文介绍.md",
     "docs/question/self recommendation letter.md",
     "docs/go/21-go-debug-tools.md",
-    "docs/CSharp/1-CSharp-Debug-tools.md",
     "docs/go/19-go-debug.md",
     "docs/go/Untitled 1.md",
-    "docs/CSharp/0-CSharp-index.md",
     "银行账户确认书.md",
     "README.md",
     "docs/threadLocal-leak.png",
     "docs/network/HCIA/1-create_user_to_telnet.md",
     "docs/network/HCIA/0-HCIA-index.md",
     "docs/linux/kvm/20.3-auto-binding-interface.md",
-    "docs/linux/kvm/20.1-ovn-debug-command.md",
-    "docs/linux/kvm/20-kvm-ovn-sdn-network.md"
+    "docs/linux/kvm/20.1-ovn-debug-command.md"
   ]
 }

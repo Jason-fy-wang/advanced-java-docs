@@ -1,3 +1,10 @@
+---
+tags:
+  - Csharp
+  - debug
+  - dotnet
+---
+
 # C# / .NET Debug Tools
 
 This page summarizes the .NET diagnostics tools that are closest to common Java
