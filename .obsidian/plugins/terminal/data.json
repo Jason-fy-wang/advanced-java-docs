@@ -3,10 +3,12 @@
   "addToContextMenu": true,
   "createInstanceNearExistingOnes": true,
   "errorNoticeTimeout": 0,
+  "experiments": {},
   "exposeInternalModules": true,
   "focusOnNewInstance": true,
   "hideStatusBar": "focused",
   "showTerminalTabPrefix": false,
+  "tabStatus": "animated",
   "interceptKeysWhenFocused": true,
   "interceptLogging": true,
   "keymappings": [
@@ -139,6 +141,9 @@
   "openChangelogOnUpdate": true,
   "pinNewInstance": true,
   "preferredRenderer": "webgl",
+  "prewarmConPty": true,
+  "windowsTerminalConsoleHost": true,
+  "pythonExecutable": "",
   "profiles": {
     "555f9592-aab6-474c-a7f8-8e0a9005f284": {
       "args": [],
@@ -161,7 +166,7 @@
         "documentOverride": null
       },
       "type": "integrated",
-      "useWin32Conhost": true
+      "win32Backend": "conpty"
     },
     "18fd5718-d3c0-4045-b90a-47ef4eb7cba8": {
       "args": [],
@@ -186,7 +191,7 @@
         "documentOverride": null
       },
       "type": "integrated",
-      "useWin32Conhost": true
+      "win32Backend": "conpty"
     },
     "developerConsole": {
       "followTheme": true,
@@ -233,7 +238,7 @@
       "platforms": {
         "win32": true
       },
-      "pythonExecutable": "python3",
+      "pythonExecutable": "",
       "restoreHistory": false,
       "rightClickAction": "copyPaste",
       "successExitCodes": [
@@ -245,7 +250,7 @@
         "documentOverride": null
       },
       "type": "integrated",
-      "useWin32Conhost": true
+      "win32Backend": "conpty"
     }
   },
   "defaultProfile": null,

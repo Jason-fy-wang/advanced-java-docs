@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "48a71814e161be64",
+        "id": "554b0b243a42743f",
         "type": "split",
         "children": [
           {
             "id": "4509724f8bf84da7",
             "type": "tabs",
-            "dimension": 70.33595425303788,
             "children": [
               {
                 "id": "e7a7b303c61786dc",
@@ -29,41 +28,28 @@
                 }
               },
               {
-                "id": "99d8410b18d5c48a",
+                "id": "00b8e9f46ec4d9a7",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/production_issue/4-issue-caused-by-tcpbuffer.md",
+                    "file": "docs/linux/kvm/25-config-kvm-filesystem-without-boot.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "4-issue-caused-by-tcpbuffer"
-                }
-              },
-              {
-                "id": "608cea1b32d0a9fc",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "docs/production_issue/images/tcp-buffer.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "tcp-buffer"
+                  "title": "25-config-kvm-filesystem-without-boot"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "d5bea63211483e41",
+            "id": "3a4fd0a66555147e",
             "type": "tabs",
-            "dimension": 29.664045746962113,
             "children": [
               {
-                "id": "a8bd066ebf390a22",
+                "id": "898e564dfe2042d0",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -95,7 +81,7 @@
                           "documentOverride": null
                         },
                         "type": "integrated",
-                        "useWin32Conhost": true
+                        "win32Backend": "conpty"
                       },
                       "profileSourceId": "18fd5718-d3c0-4045-b90a-47ef4eb7cba8",
                       "serial": null,
@@ -103,52 +89,7 @@
                     }
                   },
                   "pinned": true,
-                  "icon": "terminal",
-                  "title": "MINGW64:/d/project/project-doc/advanced-java-docs"
-                }
-              },
-              {
-                "id": "9d8b595b94389522",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "D:\\project\\project-doc\\advanced-java-docs",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "environment": [],
-                        "executable": "C:\\swdtool\\git\\Git\\bin\\bash.exe",
-                        "followTheme": true,
-                        "name": "git-bash",
-                        "platforms": {
-                          "darwin": false,
-                          "linux": false,
-                          "win32": true
-                        },
-                        "pythonExecutable": "D:\\project\\project-python\\python_operation\\.venv\\Scripts\\python.exe",
-                        "restoreHistory": false,
-                        "rightClickAction": "copyPaste",
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "profileSourceId": "18fd5718-d3c0-4045-b90a-47ef4eb7cba8",
-                      "serial": null,
-                      "userTitle": ""
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
+                  "icon": "terminal:tab-bezel",
                   "title": "MINGW64:/d/project/project-doc/advanced-java-docs"
                 }
               }
@@ -340,27 +281,36 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a8bd066ebf390a22",
+  "active": "898e564dfe2042d0",
   "lastOpenFiles": [
-    ".git/objects/c6/ce54066e0be9320485d760fd1972d4de998240",
-    ".git/objects/a4/3888dc1e06b32e39e2cded9af4814fa3a0bdc6",
-    ".git/objects/bd/05d848344e1becd5fabbaeed2bc5625239352c",
-    ".git/objects/c5/f05835ca9fd9f3bd5f25f6af3b1213f9888861",
-    ".git/objects/aa/7e89452b2230997d230d285bb24cf8d06bb2f7",
-    ".git/objects/e6/dd9cda5d2da66607532d20848d0d1092abdfa0",
-    ".git/objects/8a/a3dbdd3dead0dfc6e2eaca1552e1d4042983ba",
-    ".git/objects/6b/2f95ed6309a0ca6937c939e758129f39fda8c7",
-    ".git/objects/6b/tmp_obj_W28GT2",
-    ".git/objects/31/3122f3f7c4a98eac09081cd813a03cb63553ed",
-    ".git/objects/e8/d3872efbf6dac8b2e539f5622f5a6b88315578",
+    ".git/objects/af/tmp_obj_tnyYIO",
+    ".git/objects/d4/5cbc7602f2f4dac2b0c21d89e9deb979856b7d",
+    ".git/objects/3e/f12aba0076407d00d92fd93a3dc5f8f7cde0ff",
+    ".git/objects/ea/45818e51ee83d3f53e8807fbaf1c52c94f71cd",
+    ".git/objects/ff/58d4d513605c0b3836e69eddcef3c31bc18b19",
+    ".git/objects/08/4cc8c992be58948b394af62821ac268e9d633c",
+    ".git/objects/47/178760f2454e94cda97685f1d79d799ae5ef80",
+    ".git/objects/fd/e2bbc93102329fe455e5436f3dff256af01a51",
+    ".git/objects/c4/55879c2438694f89232af4406b02a31b7527e5",
+    "docs/linux/kvm/25-config-kvm-filesystem-without-boot.md",
+    "docs/HomePage.md",
+    ".github/skills/technology_writer/technology-writer.md",
+    ".github/skills/technology_writer",
+    ".github/hook",
+    ".github/copilot-instructions.md",
+    ".agents/skills/google-cloud-documentation/SKILL.md",
+    "docs/linux/kvm/KVM-Manager-Implementation-Plan.md",
+    "docs/question/self recommendation letter-v2.md",
+    "docs/question/template.md",
+    "docs/question/recommendation.md",
+    "docs/question/project-description_en.md",
+    "docs/question/英文介绍.md",
+    "docs/question/letter-short.md",
+    "docs/question/self recommendation letter.md",
     "docs/production_issue/4-issue-caused-by-tcpbuffer.md",
     "docs/production_issue/3-random-port-range.md",
     "docs/production_issue/images/netstat.png",
     "docs/production_issue/images/tcp-buffer.md",
-    "docs/HomePage.md",
-    ".github/skills/technology_writer/technology-writer.md",
-    ".github/copilot-instructions.md",
-    ".agents/skills/google-cloud-documentation/SKILL.md",
     "docs/Excalidraw/brother_merge.md",
     "docs/Excalidraw/music_backend.canvas",
     "docs/devOps/docker/7-dockerfile-commands.md",
@@ -369,14 +319,4 @@
     "docs/go/19-go-debug.md",
     "docs/devOps/cloud/gcp/20-edmz-in-gcp.md",
     "docs/CSharp/UnitTest.canvas",
-    "docs/CSharp/Drawing 2026-08-24 22.11.21.excalidraw.md",
-    "docs/CSharp/0-CSharp-index.md",
-    "docs/CSharp/1-CSharp-Debug-tools.md",
-    "docs/linux/podman/4-scratch-image-inspect.md",
-    "docs/linux/podman/images/overlayer.png",
-    "docs/linux/podman/3-podman-error.md",
-    "docs/linux/proxy/sing-box/1-sing-box-config.md",
-    "docs/linux/proxy/sing-box/0-sing-box-index.md",
-    "docs/question/letter-short.md",
-    "docs/question/project-description.md",
-    "docs/qu
+    "docs/CSharp/Drawing 2026-08-24 22.11.21.e

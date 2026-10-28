@@ -125,6 +125,8 @@ sudo ufw status numbered
 sudo kubeadm init \
   --image-repository registry.aliyuncs.com/google_containers \
   --kubernetes-version v1.27.3 \
+  --apiserver-advertise-address=10.30.0.11 \ 
+  --service-cidr=172.16.0.0/16 \
   --pod-network-cidr=192.168.0.0/16
 
 ## 

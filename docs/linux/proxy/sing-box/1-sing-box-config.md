@@ -493,3 +493,19 @@ tags:
 ```
 
 
+debug proxy works or not:
+```shell
+## test proxy
+### if response with 401, that means network can access docker through proxy
+curl -v --proxy http://127.0.0.1:7890 https://registry-1.docker.io/v2/
+curl -v --proxy http://127.0.0.1:7890 https://auth.docker.io/token
+curl -v -x socks5h://127.0.0.1:5353 https://registry-1.docker.io/v2/
+
+## check podman login logs
+podman --log-level=debug login docker.io
+
+## check sing-box logs
+sudo journalctl -u sing-box.service
+
+```
+
